@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-07 23:17  
-**VM_VERSION:** 20260207-2317  
-**Status:** Delta applied - HCV-VM-EXTRACT-002 (Nuclear Pivot)
+**Last Updated:** 2026-02-07 00:01  
+**VM_VERSION:** 20260207-0001-2  
+**Status:** Delta applied - HCV-VM-EXTRACT-002 (H2 Vendor Research)
 
 ## Core Virtual Memory
 
@@ -312,3 +312,12 @@ Authoritative canonical VM state. Updated only via delta application.
 - **HC-EN-NUC-PIVOT-DEC-001 Rev A** (decision document)
 - **HC-EN-NUC-PIVOT-ADD-A-001 Rev A** (addendum A)
 - **HC-EN-NUC-PIVOT-ADD-B-001 Rev A** (addendum B)
+
+---
+
+## Hydrogen System Design - Vendor Specification Research (2026-02-07)
+
+### Design Philosophy
+- **Approach:** Deep vendor-spec research to obtain precise device input requirements
+- **Compliance:** Design hydrogen system to comply with formalized vendor requirements
+- **Methodology:** Reverse-engineer system design from manufacturer specifications rather than apply generic assumptions
