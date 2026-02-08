@@ -9,4 +9,4 @@ Deterministic rebuild manifest. Enables full reconstruction from snapshots + del
 
 ## Entries
 
-| 2026-02-07 23:00 | HEBER-CAMPUS | CHAT_HEBER-CAMPUS_20260207-2300.md | VM_DELTA_HEBER-CAMPUS_20260207-2300.md | 20260207-2300 | [pending] |
+| 2026-02-07 23:00 | HEBER-CAMPUS | CHAT_HEBER-CAMPUS_20260207-2300.md | VM_DELTA_HEBER-CAMPUS_20260207-2300.md | 20260207-2300 | 1969ffe |
