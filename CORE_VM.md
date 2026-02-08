@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-07 23:59  
-**VM_VERSION:** 20260207-2359  
-**Status:** Delta applied - HCV-VM-EXTRACT-002 (Campus Master Planning v0.4)
+**Last Updated:** 2026-02-07 23:50  
+**VM_VERSION:** 20260207-2350  
+**Status:** Delta applied - HCV-VM-EXTRACT-002 (Media Handling Guidelines)
 
 ## Core Virtual Memory
 
@@ -179,3 +179,18 @@ Authoritative canonical VM state. Updated only via delta application.
 - **Execution Authority:** Granted to advance AO v0.4 into formal MECHWORK CAD drafting
 - **Transition:** Concept phase → Engineering-grade site documentation phase
 - **Responsible Division:** MECHWORK
+
+---
+
+## Media Handling Guidelines - HCV-VM-EXTRACT-002 (2026-02-07)
+
+### Facebook Share Links
+- **Authentication Requirement:** Share links may still require login after generation
+- **Handling Rule:** If video cannot be accessed without authentication, must be provided as direct uploaded media file (MP4/MOV format)
+- **Purpose:** Enables transcription/analysis without authentication barriers
+
+### iOS/Facebook Workflow Artifacts
+- **Binary Property List (bplist) Artifact:** Apple binary format with file header "bplist00"
+- **Content:** Contains metadata/pointers only, not playable video
+- **Classification:** Non-media artifact
+- **Action:** Request actual video file instead; do not attempt playback or analysis of bplist artifacts
