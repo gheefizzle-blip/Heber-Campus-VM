@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-08 10:35  
-**VM_VERSION:** 20260208-1035  
-**Status:** Delta applied - Phase 1 Energy Architecture Constraints & Nuclear Scaling Strategy
+**Last Updated:** 2026-02-08 11:48  
+**VM_VERSION:** 20260208-1148  
+**Status:** Delta applied - DC Fault Protection Autonomy & Hardware-Enforced Clearing
 
 ## Core Virtual Memory
 
@@ -1712,3 +1712,183 @@ Large reactor is authorized for Phase 3 ONLY if:
 **Consequence: Lower Total Cost of Ownership**
 - Phase 3 nuclear fleet (1,354 MW) costs less per MW to operate than Phase 1 fleet (308 MW) due to economies of scale
 - Enables Phase 3 H₂ production cost to reach <$2.50/kg target (lower steam cost, lower O&M allocation per kg)
+
+---
+
+## DC Fault Protection Autonomy, Hardware-Enforced Clearing & Software Prohibition (2026-02-08)
+
+### Hardware-Enforced Autonomous Fault Detection & Interruption
+
+#### Rationale: Microsecond Clearing Requirement
+
+**DC System Fault Propagation Dynamics**
+- DC arc faults develop with energy dissipation rates orders of magnitude faster than AC systems
+- DC arc temperature: >6,000 K (copper vaporization), terminal erosion within ~1 millisecond for high-energy faults
+- **Arc self-extinguishing behavior:** Unlike AC systems (zero-crossing natural commutation), DC arcs sustain and continue energy transfer until current supply physically interrupted
+- **Propagation timescale:** Fault initiation → peak current ramp in ~10-100 microseconds
+- **Software response time:** Best-case MECSAI fault detection (microprocessor sampling + logic) = 1-5 milliseconds minimum
+- **DC fault clearing window:** Hardware devices must clear in <100 microseconds to prevent arc propagation to adjacent equipment
+
+**Consequence:** Any software-participated fault clearing introduces unacceptable delay. Hardware-only autonomous clearing is non-negotiable.
+
+#### Hardware Protection Device Requirements
+
+**Solid-State Circuit Breaker (SSCB) Specification**
+- **Topology:** Power semiconductor switch (MOSFET or IGBT) in series with sensing circuit
+- **Clearing Time Target:** <10 microseconds from fault detection to gate command cessation
+- **Current Rating:** Device-specific (10 kA to 100+ kA depending on location)
+- **Voltage Rating:** Full DC bus voltage (±400-500 kV backbone, ±48 V distributed DC)
+- **Manufacturer Examples:** Littelfuse, ABB, Siemens, Vicor (emerging SSCBs for multi-kV DC)
+
+**Hybrid Electromechanical Breaker Alternative**
+- Solid-state primary (microsecond sensing + gate switching) backed by mechanical breaker (interrupts high fault currents when SSCB begins saturation)
+- Mechanical stage provides "second strike" for sustained faults
+- Faster than mechanical-only (~1 ms typical) but slower than pure SSCB; acceptable if SSCB stage clears initial arc energy
+
+**Protection Device Locations (Mandatory)**
+
+1. **Device Level (Distributed DC Bus)**
+   - Each inverter, rectifier, solar string combiner: Local SSCB
+   - Each electrolyzer module: Input SSCB + hydrogen/oxygen compartment SSCBs
+   - Each data center rack: PDU SSCB protecting 48 V distribution
+   - **Purpose:** Prevent single-device fault from cascading to zone or backbone
+
+2. **Zone Level (Medium-Voltage DC Distribution)**
+   - Between solar farm and main DC bus: SSCB or hybrid breaker
+   - Between battery pack and main DC bus: SSCB or hybrid breaker
+   - Between electrolyzer plant and main DC bus: SSCB or hybrid breaker
+   - Between data center DC distribution and main DC bus: SSCB or hybrid breaker
+   - **Purpose:** Isolate subsystem-wide faults from propagating to backbone
+
+3. **Backbone Level (High-Voltage DC Transmission)**
+   - Main ±400 kV DC trunk line: High-rupture-capacity hybrid breakers or HVDC circuit breakers
+   - Export HVDC converter input: SSCB or DC-rated breaker
+   - SMR reactor DC output: SSCB before main bus coupling
+   - **Purpose:** Protect entire campus power system and external grid connection
+
+#### Autonomous Detection Hardware (Non-Programmable Analog Circuits)
+
+**Fault Current Comparison (Differential Relay Logic)**
+- Analog current sensors (rogowski coil, Hall-effect) on supply and load sides of each protection device
+- Differential comparator (non-programmable analog circuit, no software): If load-side current exceeds supply-side by >threshold (typically 20-30% overage), fault condition declared
+- Threshold setting is fixed at manufacturing time (cannot be changed in field without hardware replacement)
+
+**Arc Voltage Detection (Arc Signature Recognition)**
+- High-frequency voltage oscillation during arc fault (~100-500 kHz harmonic content typical)
+- Bandpass filter circuit tuned to arc frequency signature → rectified signal → threshold comparator
+- No microprocessor involvement; pure analog circuit detecting characteristic arc waveform and triggering gate command
+
+**Temperature & Fiber-Optic Sensing (Secondary Confirmation)**
+- Temperature sensors (RTD or thermocouple) at protection device location
+- Excessive local heat (>100°C ambient) within breaker triggers backup isolation
+- Fiber-optic current transducers (immune to EMI) provide redundant fault signature
+- **Redundancy:** Any two of three detection methods (differential current, arc voltage, temperature) can independently trigger clearing
+
+### MECSAI Functional Redesignation: Read-Only Monitoring & Analytics Only
+
+#### Permitted Functions After Delta 17
+
+1. **Monitoring:** Real-time observation of all fault events (SSCB trip signals, arc detection triggers)
+2. **Analytics:** Aggregation of fault statistics (fault rate per zone, seasonal trends, correlation with load patterns)
+3. **Reporting:** Dashboard visualization of protection device health, predicted maintenance scheduling
+4. **Trend Analysis:** Machine learning on historical fault data to identify emerging failure patterns (arc frequency increase = aging equipment signal)
+
+#### Explicitly Prohibited Functions
+
+1. **Breaker Commands:** MECSAI cannot issue "close breaker" or "open breaker" commands to any protection device
+2. **Override Authority:** MECSAI cannot override hardware fault lockouts (e.g., "allow SSCB to re-close even though fault signature detected")
+3. **Reset Functions:** Cannot reset protection device latches or clear fault memory without manual technician action
+4. **Automatic Reclosure:** Cannot initiate automatic breaker re-closure after fault clearing (prevents repeated arc formation if fault persists)
+
+**Operational Consequence:**
+- After SSCB clears fault, zone/device remains de-energized until manual field technician inspects and resets breaker
+- Data center cannot automatically restart rack after fault (requires ticket + physical visit)
+- Electrolyzer cannot auto-restart module after high-current event (requires technician diagnosis)
+- Site remains in "safe" de-energized state until human verification of fault resolution
+
+### SCADA Role Redesignation: Read-Only Observers for Fault Events
+
+#### SCADA Permitted Functions
+
+1. **Fault Event Logging:** Capture timestamp, device location, fault type, SSCB clearing time from protection relay telemetry
+2. **Status Indication:** Display breaker state (open/closed) and fault counter from devices (not state command authority)
+3. **Alarms:** Generate operator notifications when fault rate exceeds threshold (e.g., >5 faults/hour indicates equipment degradation)
+4. **Historical Data:** Archive all fault events for compliance logging and equipment warranty analysis
+
+#### SCADA Explicitly Prohibited
+
+1. **Automatic Resets:** Cannot command protection device to re-close breaker
+2. **Voltage/Frequency Control:** Cannot adjust setpoints on analog protection circuits
+3. **Load Shedding:** Cannot shed customer loads in response to fault events (previously SCADA capability)
+4. **Generation Control:** Cannot ramp generators up/down in reaction to detected faults
+
+**Consequence:** Faults are logged and reported in real-time to operators, but system response is passive (no automated mitigation). Operators must manually intervene for recovery.
+
+### Fault Clearing Interaction with Load-Shedding (Clarification)
+
+#### New Load-Shedding Paradigm (Post-Delta 17)
+
+**Hypothetical Night Shortage Scenario:**
+- Solar unavailable; BESS depleted to 10% capacity; SMR #1 down for maintenance
+- MECSAI predicts insufficient capacity in 30 minutes to supply 500 MW demand
+
+**Available Options (All Voluntary, No Hardware Override):**
+1. **Operator discretion:** Manually request electrolyzer operator to ramp module #3 offline (voluntary, not automatic)
+2. **Tenant coordination:** Call data center customer support; negotiate temporary workload deferral (contractual discussion, not forced shutdown)
+3. **Import power:** Request grid operator to supply 100 MW from external market (economic, not technical control)
+
+**Not Available:**
+- MECSAI cannot force breaker open to shed load
+- MECSAI cannot override tenant SLA by shutting down their racks
+- MECSAI cannot prevent electrolyzer restart by locking protection device
+
+**Consequence:** Night shortage management becomes a planning + negotiation problem, not a real-time automated control solution
+
+### Fault Isolation Architecture: Three-Level Protection Hierarchy
+
+#### Level 1: Device Protection (Microsecond Scale)
+- Fault confined to single device (inverter, battery pack, electrolyzer module)
+- SSCB clears; only that device de-energized
+- Rest of system unaffected
+- Example: Solar string fault → only that combiner de-energized; other 99 strings continue
+
+#### Level 2: Zone Protection (Microsecond Scale, Higher Current Rating)
+- Device-level protection fails (SSCB stuck ON due to gate drive failure)
+- Zone protection picks up; higher current SSCB actuates
+- Entire zone (e.g., solar farm) isolated; backup zones (battery, reactor) supply campus
+- Example: Combiner stuck closed, arc propagates to feeder line → zone SSCB clears feeder; solar farm isolated but site continues operation
+
+#### Level 3: Backbone Protection (>10 ms Timescale, Highest Current Rating)
+- Zone protection fails
+- Main backbone HVDC breaker/HVDC circuit breaker actuates
+- Entire campus splits into isolated sections; each section operates on local generation/storage
+- Example: Multi-zone arc propagates to main bus → backbone breaker opens; north campus (reactor #1 + battery) and south campus (reactor #2 + solar) operate independently
+
+#### Redundancy Requirement
+
+**Mandatory Dual Protection:**
+- Every wire, bus, and cable must have ≥2 independent protection devices
+- If SSCB #1 fails (gate drive shorted, MOSFET failure), SSCB #2 is independent backup
+- Sensing circuit for device #2 is completely independent (separate analog comparator, separate current sensor)
+- **Cannot share analog sensing or signal conditioning** (failure mode correlation)
+
+**Maintenance Implication:**
+- After fault clearing, only one protection device can be off-line for repair at a time
+- Second protection device must be verified operational before first device is returned to service
+- Staffing requirement: Technicians trained in dual-device coordination procedure
+
+### Manufacturing Standards & Certification Requirement
+
+**SSCB Acceptance Criteria:**
+1. **Third-party shortcircuit testing:** Device must withstand rated shortcircuit current (10 kA, 50 kA, 100 kA class) without component failure
+2. **Clearing time validation:** Independent lab test confirmation of <10 μs clearing time under rated shortcircuit
+3. **Repeatability:** Device must clear ≥1,000 consecutive shortcircuits without performance degradation
+4. **Temperature cycling:** Thermal cycling -40°C to +85°C over 500 cycles; clearing time specification maintained
+5. **Qualification to IEC 61008 (DC Switching) or IEEE C37.14** (DC circuit breaker standards)
+
+**Supply Chain Impact:**
+- Cost: SSCB ~$50-200 per unit depending on current rating (vs. $10-20 for AC breaker)
+- Availability: SSCB production capacity globally is <5 GW equivalent capacity/year; Heber demand for 1.5+ GW DC system represents 20-30% of global SSCB market
+- Lead time: 12-18 months for delivery of purpose-designed SSCB fleet
+
+**Phase 1 Implication:** Campus DC protection specification must be finalized by 2026 Q2 (this month) to meet 2027-2028 construction timelines
