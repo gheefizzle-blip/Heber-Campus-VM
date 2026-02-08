@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-07 23:58  
-**VM_VERSION:** 20260207-2358  
-**Status:** Delta applied - HCV-VM-EXTRACT-002 (SDC-COMMS Projectile)
+**Last Updated:** 2026-02-07 23:59  
+**VM_VERSION:** 20260207-2359  
+**Status:** Delta applied - HCV-VM-EXTRACT-002 (Campus Master Planning v0.4)
 
 ## Core Virtual Memory
 
@@ -156,3 +156,26 @@ Authoritative canonical VM state. Updated only via delta application.
 - **ATB Routing Packet:** ATB-ROUTE-MAGLIFT-POD-013 (corrected canonical review artifact)
 - **Submitting Division:** SDC-COMMS (Mag-Lift projectile architecture and ATB coordination)
 - **Integration Status:** Formally integrated into Spear Enterprise architecture
+
+---
+
+## Heber Campus Master Planning - AO v0.4 Progression (2026-02-07)
+
+### Planning Baseline
+- **Version:** AO v0.4 (canonical planning inputs)
+- **Status:** Fixed block coordinates, safety setbacks, wind-aligned zoning established
+- **Interconnection Doctrine:** Modular ICD-00 doctrine formalized
+
+### Authoritative Reference
+- **Spatial Authority:** AO v0.4 designated as authoritative reference for all downstream CAD drafting
+- **Constraint:** MECHWORK must produce scaled A0 master site plans derived directly from AO coordinates without approximation
+
+### Documentation Standards
+- **Intermediate Artifacts:** Vector-mapped, near-scale visual representations approved for planning
+- **Engineering Requirement:** CAD outputs (DWG/PDF) mandatory for any document entering engineering or ATB review
+- **Format:** ARCH E (36x48), base scale 1" = 400'; insets at 1" = 200'
+
+### Phase Transition
+- **Execution Authority:** Granted to advance AO v0.4 into formal MECHWORK CAD drafting
+- **Transition:** Concept phase → Engineering-grade site documentation phase
+- **Responsible Division:** MECHWORK
