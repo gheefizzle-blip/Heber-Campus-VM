@@ -26,3 +26,4 @@ Deterministic rebuild manifest. Enables full reconstruction from snapshots + del
 | 2026-02-08 00:30 | Heber_Global_Roadmap | CHAT_Heber_Global_Roadmap_20260208-0030.md | VM_DELTA_Heber_Global_Roadmap_20260208-0030.md | 20260208-0030 | 7c07dbd |
 | 2026-02-08 10:35 | HCV-VM-EXTRACT-002 | CHAT_HCV-VM-EXTRACT-002_20260208-1035.md | VM_DELTA_HCV-VM-EXTRACT-002_20260208-1035.md | 20260208-1035 | 0d7d5ff |
 | 2026-02-08 11:48 | HCV-VM-EXTRACT-002 | CHAT_HCV-VM-EXTRACT-002_20260208-1148.md | VM_DELTA_HCV-VM-EXTRACT-002_20260208-1148.md | 20260208-1148 | c7c7905 |
+| 2026-02-08 23:59 | HeberCampus_VMExtract | CHAT_HeberCampus_VMExtract_20260208-2359.md | VM_DELTA_HeberCampus_VMExtract_20260208-2359.md | 20260208-2359 | <pending> |

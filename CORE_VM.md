@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-08 11:48  
-**VM_VERSION:** 20260208-1148  
-**Status:** Delta applied - DC Fault Protection Autonomy & Hardware-Enforced Clearing
+**Last Updated:** 2026-02-08 23:59  
+**VM_VERSION:** 20260208-2359  
+**Status:** Delta applied - Steam & SOEC Water Chemistry, Vendor Doctrine & Execution Constraints
 
 ## Core Virtual Memory
 
@@ -1892,3 +1892,19 @@ Large reactor is authorized for Phase 3 ONLY if:
 - Lead time: 12-18 months for delivery of purpose-designed SSCB fleet
 
 **Phase 1 Implication:** Campus DC protection specification must be finalized by 2026 Q2 (this month) to meet 2027-2028 construction timelines
+
+---
+
+## HeberCampus VM Extract — Steam & SOEC Water Chemistry, Vendor Doctrine, and Execution Constraints (2026-02-08 23:59 UTC)
+
+**Source:** VM_DELTA_HeberCampus_VMExtract_20260208-2359.md
+
+[2026-02-08] Formal acceptance standard for steam and SOEC-grade water chemistry established as procurement, FAT/SAT, insurer, and warranty gate; chemistry limits, sampling locations, materials compatibility, corrosion monitoring, and enforcement language defined.
+
+[2026-02-08] Vendor compliance checklist doctrine established requiring modular scalability from Phase 1 through Phase 3 without chemistry envelope change, system redesign, or warranty reset; applies to SOEC systems and balance-of-plant.
+
+[2026-02-08] Water purification vendors formally bound to modular Phase 1–Phase 3 expansion doctrine; purification systems required to scale via modular skid replication while maintaining SOEC-grade outlet chemistry and warranty continuity.
+
+[2026-02-08] Explicit separation doctrine reinforced: VM extraction and canonical governance operations must be executed in retrieval-only context; file-generation and sandboxed execution contexts are non-authoritative for VM mutation.
+
+[2026-02-08] Execution constraint acknowledged: sandboxed file-generation sessions are non-authoritative for external canonical retrieval; governance process requires isolation of VM extraction from document generation workflows.
