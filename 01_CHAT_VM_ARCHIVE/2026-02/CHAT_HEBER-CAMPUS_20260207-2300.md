@@ -1,12 +1,9 @@
-# CORE_VM.md
+# CHAT_HEBER-CAMPUS_20260207-2300
 
-**Last Updated:** 2026-02-07  
+**Snapshot Timestamp:** 2026-02-07 23:00 UTC  
+**Source:** ChatGPT Extraction (HCV-VM-EXTRACT-002)  
 **VM_VERSION:** 20260207-2300  
-**Status:** Delta applied - HCV-VM-EXTRACT-002
-
-## Core Virtual Memory
-
-Authoritative canonical VM state. Updated only via delta application.
+**Immutable:** Yes
 
 ---
 
