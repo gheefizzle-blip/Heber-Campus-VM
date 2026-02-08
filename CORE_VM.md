@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-07  
+**Last Updated:** 2026-02-07 23:15  
 **VM_VERSION:** 20260207-2300  
-**Status:** Delta applied - HCV-VM-EXTRACT-002
+**Status:** Delta applied - HCV-VM-EXTRACT-002 | Cache refresh
 
 ## Core Virtual Memory
 
