@@ -23,3 +23,4 @@ Deterministic rebuild manifest. Enables full reconstruction from snapshots + del
 | 2026-02-07 03:18 | HeberCampus | CHAT_HeberCampus_20260207-0318.md | VM_DELTA_HeberCampus_20260207-0318.md | 20260207-0318 | 1336d30 |
 | 2025-12-27 23:55 | HeberCampus | CHAT_HeberCampus_20251227-2355.md | VM_DELTA_HeberCampus_20251227-2355.md | 20251227-2355 | ff45a6d |
 | 2026-02-07 23:45 | BESS_SOLID_STATE_REVIEW | CHAT_BESS_SOLID_STATE_REVIEW_20260207-2345.md | VM_DELTA_BESS_SOLID_STATE_REVIEW_20260207-2345.md | 20260207-2345 | 6ae285b |
+| 2026-02-08 00:30 | Heber_Global_Roadmap | CHAT_Heber_Global_Roadmap_20260208-0030.md | VM_DELTA_Heber_Global_Roadmap_20260208-0030.md | 20260208-0030 | <pending> |
