@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-09 21:45
-**VM_VERSION:** 20260209-2145-2
-**Status:** Delta applied - Financing Readiness P&L Structure & Presentation Standards
+**Last Updated:** 2026-02-09 22:45
+**VM_VERSION:** 20260209-2245
+**Status:** Delta applied - Phase 1 Canonical Parameters & Financial Model
 
 ## Core Virtual Memory
 
@@ -2560,3 +2560,29 @@ Large reactor is authorized for Phase 3 ONLY if:
 [2026-02-09] Approved CFO presentation standards for financial artifacts: formula-driven model (no hard-coded totals), assumptions isolated in a single inputs tab, and charts embedded on relevant pages (Executive, Fuels, Data Centers) rather than aggregated on a single charts page.
 
 [2026-02-09] Accepted funding-readiness integration rule: financing eligibility and readiness gates (DOE LPO, NRC COL, offtake, EPC, equity) must be operationalized within the financial model as explicit status items, not narrative-only documentation.
+
+---
+
+## Phase 1 Canonical Parameters & Financial Model (2026-02-09)
+
+**Source:** VM_DELTA_HCV-VM-EXTRACT-002_20260209-2245.md
+
+[2026-02-09] Phase 1 hydrogen production is canonically set at 1,000 metric tons per day (2 × 500 t/day per PFT).
+
+[2026-02-09] The BESS system in Phase 1 is a three-tier architecture totaling 725 MWh / 670 MW, split into fast, medium, and long-duration energy storage tiers.
+
+[2026-02-09] Biomass power generation in Phase 1 is 167 MWe (2 × 83.3 MWe per PFT), with the biomass gasifier included in the FT EPC scope and the power block in a separate EPC scope.
+
+[2026-02-09] Firm power capacity in Phase 1 totals ~2,607 MWe, composed of 2,200 MWe from nuclear, 167 MWe from biomass, 200 MWe from tail gas turbines, and 40 MWe from steam turbines.
+
+[2026-02-09] Each AP1000 reactor delivers 1,100 MWe net; references to 1,150 MWe or gross figures are not canonical.
+
+[2026-02-09] Ammonia is prohibited for Loop B or energy storage purposes; no NH3 energy loop shall be present in Phase 1 or future plans.
+
+[2026-02-09] Phase 1 financial model includes monetization of Section 45V hydrogen tax credits and Section 45Q carbon capture credits; expected combined value is ~$400M–$700M/year with conservative captive-use assumptions.
+
+[2026-02-09] Five DSCR mitigation strategies are locked: (1) DSRA, (2) crossover financing, (3) bridge loans, (4) equity upsizing, and (5) tax credit monetization.
+
+[2026-02-09] Phase 1 includes a contingency allocation of $1.0B in the CapEx breakdown.
+
+[2026-02-09] Official Phase 1 timeline is: project development starts Q2 2026, financial close Q4 2028, and commercial operation (COD) in 2030.
