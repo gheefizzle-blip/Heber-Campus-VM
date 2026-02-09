@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-10 23:10
-**VM_VERSION:** 20260210-2310
-**Status:** Delta applied - Phase 0-A Activation Strategy & Corporate Formation
+**Last Updated:** 2026-02-09 21:45
+**VM_VERSION:** 20260209-2145
+**Status:** Delta applied - Dual-Site Hydrogeology Strategy & Holbrook Ranch
 
 ## Core Virtual Memory
 
@@ -2522,3 +2522,19 @@ Large reactor is authorized for Phase 3 ONLY if:
 [2026-02-10] Early-capital strategy revised to prioritize strategic development partners (family offices, industrial HNW, infrastructure-aligned capital) over lenders, with seed capital characterized as development equity or equity-like instruments.
 
 [2026-02-10] Timeline expectation formalized that Phase 0-A initiation to committed seed capital is realistically 4–6 months under normal execution, with <3 months deemed exceptional and >9 months treated as a failure condition.
+
+---
+
+## Dual-Site Hydrogeology Strategy & Holbrook Ranch (2026-02-09)
+
+**Source:** VM_DELTA_HCV-VM-EXTRACT-002_20260209-2145.md
+
+[2026-02-09] Phase 0 hydrogeology feasibility shall evaluate two candidate sites in parallel: Heber (BLM-adjacent) and Holbrook Ranch (fee land), using a shared regional baseline with site-specific addenda.
+
+[2026-02-09] Dual-site Phase 0 hydrogeology strategy approved to preserve project optionality, reduce single-site risk, and improve early funding leverage.
+
+[2026-02-09] Holbrook Ranch identified as an alternate candidate site with material infrastructure adjacency advantages including interstate highway access, rail access, natural gas transmission proximity, major fiber trunk proximity, and surface water adjacency.
+
+[2026-02-09] If Phase 0 hydrogeology confirms both sites are viable, Holbrook Ranch becomes the preferred site for early partner capital engagement due to fee-simple land control and reduced federal sequencing risk.
+
+[2026-02-09] Early capital strategy updated: leverage dual-site viability to secure early partner funding for land control (option or acquisition) of Holbrook Ranch prior to full project seed financing.
