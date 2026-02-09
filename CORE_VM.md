@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-09 21:40
-**VM_VERSION:** 20260209-2140
-**Status:** Delta applied - Helium Procurement Strategy & Hybrid Thermal Architecture
+**Last Updated:** 2026-02-10 18:35
+**VM_VERSION:** 20260210-1835
+**Status:** Delta applied - CAD/GIS Design Authority & Governance Sequencing
 
 ## Core Virtual Memory
 
@@ -2290,3 +2290,19 @@ Large reactor is authorized for Phase 3 ONLY if:
 [2026-02-09] Hybrid thermal architecture preference is confirmed: helium-to-salt heat transfer for bulk thermal duty with helium-to-steam superheating to achieve 780-820C SOEC inlet temperatures, eliminating large electric superheat parasitics.
 
 [2026-02-09] Strategic priority is established to eliminate approximately 500 MW of electric superheat load to preserve dispatchable electric capacity for revenue-generating uses.
+
+---
+
+## CAD/GIS Design Authority & Governance Sequencing (2026-02-10)
+
+**Source:** VM_DELTA_HCV-VM-EXTRACT-002_20260210-1835.md
+
+[2026-02-10] Decision established that Fusion 360 combined with GIS constitutes the authoritative engineering truth layer for campus-wide design; Photoshop and Google Earth are formally designated as downstream visualization and communication tools only.
+
+[2026-02-10] Architecture rule formalized: campus geometry, zoning, corridors, and interfaces must be defined in engineering-grade CAD (Fusion/GIS) prior to any rendered or illustrative outputs; visualization tools are prohibited from serving as upstream design authorities.
+
+[2026-02-10] Decision adopted that Google Earth shall be used exclusively as a presentation and walkthrough layer derived from authoritative CAD/GIS outputs, and shall not be used for primary planning, geometry definition, or engineering decisions.
+
+[2026-02-10] Governance sequencing rule clarified: agent SDK provisioning and work-order-driven engineering execution must precede detailed CAD modeling; exploratory or ad-hoc modeling in Fusion without governance context is disallowed.
+
+[2026-02-10] Accepted execution doctrine that campus design proceeds top-down: requirements and logic management → agent-generated engineering artifacts → CAD integration → visualization export, with no inversion of this sequence permitted.
