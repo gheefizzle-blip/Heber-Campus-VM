@@ -55,3 +55,4 @@ Deterministic rebuild manifest. Enables full reconstruction from snapshots + del
 | 2026-02-09 22:30 | HCV-VM-EXTRACT-002 | — | VM_DELTA_HCV-VM-EXTRACT-002_20260209-2230.md | 20260209-2230 | 33fd772 |
 | 2026-02-10 23:10 | HCV-VM-EXTRACT-002 | — | VM_DELTA_HCV-VM-EXTRACT-002_20260210-2310.md | 20260210-2310 | 75b52df |
 | 2026-02-09 21:45 | HCV-VM-EXTRACT-002 | — | VM_DELTA_HCV-VM-EXTRACT-002_20260209-2145.md | 20260209-2145 | 4950a8f |
+| 2026-02-09 21:45 | Financing_Readiness_PnL | — | VM_DELTA_Financing_Readiness_PnL_20260209-2145.md | 20260209-2145-2 | <pending> |
