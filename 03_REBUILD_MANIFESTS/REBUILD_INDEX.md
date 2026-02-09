@@ -49,3 +49,4 @@ Deterministic rebuild manifest. Enables full reconstruction from snapshots + del
 | 2026-02-09 14:15 | RLM_Harness_Citation_Fix | — | VM_DELTA_RLM_Harness_Citation_Fix_20260209-1415.md | 20260209-1415-2 | ddab850 |
 | 2026-01-24 04:10 | HARNESS_RLM_TRUE_RLM | — | VM_DELTA_HARNESS_RLM_TRUE_RLM_20260124-0410.md | 20260124-0410 | a89ad76 |
 | 2026-02-09 14:55 | HCV-VM-EXTRACT-002 | — | VM_DELTA_HCV-VM-EXTRACT-002_20260209-1455-B.md | 20260209-1455-B | e541a7b |
+| 2026-02-09 16:00 | HCV-VM-EXTRACT-002 | — | VM_DELTA_HCV-VM-EXTRACT-002_20260209-1600.md | 20260209-1600 | <pending> |
