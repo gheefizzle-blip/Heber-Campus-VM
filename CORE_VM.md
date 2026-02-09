@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-09 13:35
-**VM_VERSION:** 20260209-1335
-**Status:** Delta applied - SOEC Degradation Monitoring, MECSAI Warranty-Safe Sensor Doctrine
+**Last Updated:** 2026-02-09 14:55
+**VM_VERSION:** 20260209-1455
+**Status:** Delta applied - PHMSA Pipeline Jurisdiction & Ammonia Export Separation Doctrine
 
 ## Core Virtual Memory
 
@@ -2228,3 +2228,19 @@ Large reactor is authorized for Phase 3 ONLY if:
 [2026-02-09] Asset response states are formalized as Yellow (inspect), Orange (derate), and Red (controlled shutdown with vendor notification).
 
 [2026-02-09] Warranty preservation requires documented installation methods, independent power and data paths, and written vendor acknowledgment for read-only exports.
+
+---
+
+## PHMSA Pipeline Jurisdiction & Ammonia Export Separation Doctrine (2026-02-09)
+
+**Source:** VM_DELTA_HCV-VM-EXTRACT-002_20260209-1455.md
+
+[2026-02-09] Heber Campus will operate diesel and Jet-A export pipelines subject to PHMSA 49 CFR Part 195 jurisdiction.
+
+[2026-02-09] Ammonia production and storage at Heber Campus will not connect to any pipeline and will export exclusively via truck and rail.
+
+[2026-02-09] Ammonia systems at Heber Campus are explicitly excluded from PHMSA pipeline jurisdiction and are governed by OSHA 29 CFR 1910.111, EPA environmental programs, and local fire code.
+
+[2026-02-09] Diesel and Jet-A pipeline-associated tanks, pump stations, and related infrastructure at Heber Campus are classified as PHMSA-regulated pipeline assets, including breakout tanks where applicable.
+
+[2026-02-09] Heber Campus architecture requires hard mechanical, electrical, and control-system separation between PHMSA-regulated liquid fuel pipeline systems and non-pipeline ammonia systems.
