@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-09 14:20
-**VM_VERSION:** 20260209-1420-2
-**Status:** Delta applied - SOEC MECSAI Vendor Monitoring & Two-Tier Instrumentation Doctrine
+**Last Updated:** 2026-02-10 15:12
+**VM_VERSION:** 20260210-1512
+**Status:** Delta applied - Atlas Systems Group Corporate Structure & Demeter Chemical Division
 
 ## Core Virtual Memory
 
@@ -2092,3 +2092,21 @@ Large reactor is authorized for Phase 3 ONLY if:
 [2026-02-09] Governance: Vendor interface support requested via an Interface Control Document (ICD) defining allowable external command envelope and data mapping for MECSAI integration.
 
 [2026-02-09] Partnership path: MECSAI compatibility and compliance positioning to be offered as a co-marketing option for vendors (MECSAI-Compatible SOEC Platform) without exclusivity.
+
+---
+
+## Atlas Systems Group Corporate Structure & Demeter Chemical Division (2026-02-09)
+
+**Source:** VM_DELTA_Heber-Campus-VM-EXTRACT-002_20260210-1512.md
+
+[2026-02-09] Adopted **Atlas Systems Group** as the parent corporate name for the Heber Campus industrial ecosystem.
+
+[2026-02-09] Defined major corporate divisions under Atlas Systems Group: Helios Power Systems, Prometheus Fuel Systems, Hermes Data Systems, Hephaestus Robotics & Automation, Apollo Orbital Systems, Athena Intelligence (with MECSAI), Poseidon Water Systems.
+
+[2026-02-09] Added **Demeter Chemical Systems** as the corporate division responsible for urea, amino derivatives, potash-based chemistry, and agricultural/industrial inputs.
+
+[2026-02-09] Corporate hierarchy established with Atlas Systems Group as holding company and the above divisions as standalone entities.
+
+[2026-02-09] Commits made to finalized logos for each corporate division.
+
+[2026-02-09] Version 1 of cleaned high-DPI PNG logos generated at 600 DPI with centered white backgrounds for all corporate divisions (Atlas, Helios, Prometheus, Hermes, Hephaestus, Demeter, Apollo, Athena, Poseidon).
