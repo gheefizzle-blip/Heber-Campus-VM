@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-09 10:45
-**VM_VERSION:** 20260209-1045
-**Status:** Delta applied - CO2 Capture Integration, DAC Sizing & Carbon Tiering Doctrine
+**Last Updated:** 2026-02-09 14:20
+**VM_VERSION:** 20260209-1420
+**Status:** Delta applied - Space R&D Charter, OSY Manufacturing & Microgravity Engineering Doctrine
 
 ## Core Virtual Memory
 
@@ -1970,3 +1970,21 @@ Large reactor is authorized for Phase 3 ONLY if:
 [2026-02-09] Mandated that external CO2 systems shall not become single points of failure and shall not dictate upstream process design.
 
 [2026-02-09] Locked requirement that DAC and CO2 capture loads be dispatchable based on internal power availability and not constrain primary energy systems.
+
+---
+
+## Space R&D Charter, OSY Manufacturing & Microgravity Engineering Doctrine (2026-02-09)
+
+**Source:** VM_DELTA_HCV-VM-EXTRACT-002_20260209-1420.md
+
+[2026-02-09] R&D scope expanded beyond efficiency and safety optimization to include generative engineering of non-existent infrastructure required for space and orbital operations.
+
+[2026-02-09] R&D charter includes invention of new materials, coatings, joining methods, and manufacturing processes with no terrestrial equivalents.
+
+[2026-02-09] Purpose-built robotic systems for microgravity manufacturing are designated as core R&D outputs, not derivative adaptations of terrestrial automation.
+
+[2026-02-09] Microgravity manufacturing defined as a first-principles engineering domain; gravity-dependent processes are considered non-viable by default for OSY deployment.
+
+[2026-02-09] Orbital Shipyard (OSY) designated as heavy vehicle manufacturing environment requiring space-native manufacturing architectures developed through R&D.
+
+[2026-02-09] Heber Campus designated as ground-truth validation environment for space infrastructure R&D, including materials, robotics, coatings, and manufacturing physics prior to orbital deployment.
