@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-09 14:15
-**VM_VERSION:** 20260209-1415
-**Status:** Delta applied - FAT/SAT Acceptance Framework for Electrolyzer & H2 Equipment Procurement
+**Last Updated:** 2026-02-09 15:05
+**VM_VERSION:** 20260209-1505
+**Status:** Delta applied - Heber Campus Parcel Identification & Cashflow Template
 
 ## Core Virtual Memory
 
@@ -2052,3 +2052,15 @@ Large reactor is authorized for Phase 3 ONLY if:
 [2026-02-09] Warranty start dates for electrolyzer systems are defined as the SAT acceptance date, not shipment or energization date.
 
 [2026-02-09] Failure to meet any FAT or SAT acceptance criterion triggers vendor-funded remediation, retrofit, price renegotiation, or rejection.
+
+---
+
+## Heber Campus Parcel Identification & Cashflow Template (2026-02-09)
+
+**Source:** VM_DELTA_HeberCampus_20260209-1505.md
+
+[2026-02-09] Proposed Heber Campus land envelope defined as three federal parcels (Navajo County parcel IDs 20102004, 20102005, 20102006) covering T13N R16E Sections 1-36 totaling 22,922.11 acres.
+
+[2026-02-09] Assessor records for the three parcels list Owner = USA and administering agency = Bureau of Land Management (BLM) Safford Field Office; county zoning = none; assessed property taxes recorded as $0.
+
+[2026-02-09] Cashflow timeline spreadsheet template established for financing-round planning: columns include Month, Phase, Milestone/Gate, Debit ($ Out), Credit ($ In), Cumulative Cash Position, Notes; baseline timeline populated through Month 60.
