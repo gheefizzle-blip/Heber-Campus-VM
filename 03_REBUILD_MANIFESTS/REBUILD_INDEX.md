@@ -43,3 +43,4 @@ Deterministic rebuild manifest. Enables full reconstruction from snapshots + del
 | 2026-02-09 13:35 | SOECDegMonitoring | — | VM_DELTA_SOECDegMonitoring_20260209-1335.md | 20260209-1335 | 17bf0c2 |
 | 2026-02-09 14:55 | HCV-VM-EXTRACT-002 | — | VM_DELTA_HCV-VM-EXTRACT-002_20260209-1455.md | 20260209-1455 | a0d99cf |
 | 2026-02-09 16:25 | REGULATORY_LIBRARY_BUILD | — | VM_DELTA_REGULATORY_LIBRARY_BUILD_20260209-1625.md | 20260209-1625 | 3130d7e |
+| 2026-02-09 21:40 | Helium_Strategy | — | VM_DELTA_Helium_Strategy_20260209-2140.md | 20260209-2140 | <pending> |

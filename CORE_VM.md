@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-09 16:25
-**VM_VERSION:** 20260209-1625
-**Status:** Delta applied - Regulatory Library Architecture, Baseline Pinning & Three-Layer Control Model
+**Last Updated:** 2026-02-09 21:40
+**VM_VERSION:** 20260209-2140
+**Status:** Delta applied - Helium Procurement Strategy & Hybrid Thermal Architecture
 
 ## Core Virtual Memory
 
@@ -2272,3 +2272,21 @@ Large reactor is authorized for Phase 3 ONLY if:
 [2026-02-09] A three-layer regulatory control model was established: pinned baseline for engineering, monitored delta stream for changes, and governance-led impact evaluation before baseline updates.
 
 [2026-02-09] Continuous CFR change monitoring was approved using Federal Register notices, GovInfo CFR releases, and agency rulemaking feeds without automatic baseline mutation.
+
+---
+
+## Helium Procurement Strategy & Hybrid Thermal Architecture (2026-02-09)
+
+**Source:** VM_DELTA_Helium_Strategy_20260209-2140.md
+
+[2026-02-09] Helium is designated as a procured industrial utility for the Heber Campus; on-site helium production or recovery is explicitly excluded from baseline design.
+
+[2026-02-09] Helium use is limited to closed-loop heat transfer for high-temperature nuclear reactors and downstream superheating; helium is not treated as a consumable, energy storage medium, or revenue product.
+
+[2026-02-09] Helium recovery from natural gas streams is rejected for Phase 1 through Phase 3 due to unfavorable CAPEX/OPEX relative to purchased helium unless future gas assays demonstrate >0.1 percent helium concentration.
+
+[2026-02-09] Optional helium recovery evaluation is deferred to Phase 3+ only and gated by verified helium-bearing gas supply, economic thresholds, and non-interference with critical path execution.
+
+[2026-02-09] Hybrid thermal architecture preference is confirmed: helium-to-salt heat transfer for bulk thermal duty with helium-to-steam superheating to achieve 780-820C SOEC inlet temperatures, eliminating large electric superheat parasitics.
+
+[2026-02-09] Strategic priority is established to eliminate approximately 500 MW of electric superheat load to preserve dispatchable electric capacity for revenue-generating uses.
