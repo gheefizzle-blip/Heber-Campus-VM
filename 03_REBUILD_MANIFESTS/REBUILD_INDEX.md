@@ -40,3 +40,4 @@ Deterministic rebuild manifest. Enables full reconstruction from snapshots + del
 | 2026-02-09 14:30 | HDS-NET-HEBER | — | VM_DELTA_HDS-NET-HEBER_20260209-1430.md | 20260209-1430 | a19ae97 |
 | 2026-02-09 21:30 | INTERCAMPUS_SUPERCLUSTER | — | VM_DELTA_INTERCAMPUS_SUPERCLUSTER_20260209-2130.md | 20260209-2130 | c068268 |
 | 2026-02-09 14:30 | Nuclear_SOEC_Roadmap | — | VM_DELTA_Nuclear_SOEC_Roadmap_20260209-1430.md | 20260209-1430-2 | d19b9c9 |
+| 2026-02-09 13:35 | SOECDegMonitoring | — | VM_DELTA_SOECDegMonitoring_20260209-1335.md | 20260209-1335 | <pending> |
