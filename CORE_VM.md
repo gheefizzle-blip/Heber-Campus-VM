@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-09 01:20
-**VM_VERSION:** 20260209-0120
-**Status:** Delta applied - Hybrid Architecture, Project Isolation & Governance Spine Doctrines
+**Last Updated:** 2026-02-09 07:15
+**VM_VERSION:** 20260209-0715
+**Status:** Delta applied - Green Compliance, Fuel Quality & Lifecycle Carbon Doctrine
 
 ## Core Virtual Memory
 
@@ -1934,3 +1934,15 @@ Large reactor is authorized for Phase 3 ONLY if:
 [2026-02-08] Canonical JSON schema contracts ratified for project intake, project provisioning request, provisioning response, and project-ready event payloads, establishing machine-verifiable governance interfaces between orchestration, routing, and agent execution layers.
 
 [2026-02-08] Operational separation rule reinforced: VM extraction, governance validation, and canonical memory mutation are retrieval-only activities and must remain isolated from sandboxed generation or execution environments.
+
+---
+
+## Green Compliance, Fuel Quality & Lifecycle Carbon Doctrine (2026-02-09)
+
+**Source:** VM_DELTA_HCV-VM-EXTRACT-002_20260209-0715.md
+
+[2026-02-09] Campus fuel production doctrine includes lifecycle net-zero carbon claim only if carbon feedstock is biogenic or air-captured CO2 and the energy inputs are low-carbon, requiring formal lifecycle accounting boundaries for validation.
+
+[2026-02-09] Campus synthetic fuels (FT liquids) design must include aggressive syngas cleanup to achieve very low sulfur content meeting ULSD and Jet-A sulfur specifications.
+
+[2026-02-09] A "Green Compliance and Fuel Quality Doctrine" addendum is required to lock allowed carbon sources (biogenic, DAC), limits on external fossil CO2 makeup, and sulfur spec targets with required analyzers/COAs for acceptance.
