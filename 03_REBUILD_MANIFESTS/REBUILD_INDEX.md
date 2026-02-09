@@ -35,3 +35,4 @@ Deterministic rebuild manifest. Enables full reconstruction from snapshots + del
 | 2026-02-09 15:35 | HCV-VM-EXTRACT-002 | — | VM_DELTA_HCV-VM-EXTRACT-002_20260209-1535.md | 20260209-1535 | 279acf6 |
 | 2026-02-09 14:15 | FAT_SAT_FRAMEWORK | — | VM_DELTA_FAT_SAT_FRAMEWORK_20260209-1415.md | 20260209-1415 | bc6dc64 |
 | 2026-02-09 15:05 | HeberCampus | — | VM_DELTA_HeberCampus_20260209-1505.md | 20260209-1505 | 3c50d16 |
+| 2026-02-09 14:20 | SOEC_MECSAI_Vendor_Monitoring | — | VM_DELTA_SOEC_MECSAI_Vendor_Monitoring_20260209-1420.md | 20260209-1420-2 | <pending> |
