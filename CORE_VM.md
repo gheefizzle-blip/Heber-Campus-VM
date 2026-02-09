@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-09 14:30
-**VM_VERSION:** 20260209-1430
-**Status:** Delta applied - Hermes Data Systems Network Architecture, Evergreen Compute & Federation Doctrine
+**Last Updated:** 2026-02-09 21:30
+**VM_VERSION:** 20260209-2130
+**Status:** Delta applied - Intercampus Super-Cluster, Dark Fiber Ring & Capital Strategy
 
 ## Core Virtual Memory
 
@@ -2142,3 +2142,31 @@ Large reactor is authorized for Phase 3 ONLY if:
 [2026-02-09] Hermes defined a Heber Campus-specific network redundancy plan utilizing the SR-260 corridor and the I-40 corridor as physically diverse terrestrial fiber legs.
 
 [2026-02-09] Hermes established mandatory acceptance testing for campus network redundancy including carrier failover, MMR isolation, and tertiary path validation.
+
+---
+
+## Intercampus Super-Cluster, Dark Fiber Ring & Capital Strategy (2026-02-09)
+
+**Source:** VM_DELTA_INTERCAMPUS_SUPERCLUSTER_20260209-2130.md
+
+[2026-02-09] Decision confirmed to pursue owned dark fiber interconnecting Heber Campus and Holbrook Ranch Campus to operate as a single managed super-cluster with independent physical fault domains.
+
+[2026-02-09] Architecture formalized for a ringed regional fiber topology: Winslow -> Holbrook -> Snowflake -> Show Low -> Heber -> Winslow, with multiple ingress and egress paths.
+
+[2026-02-09] Determination made that owned fiber is a hard requirement for intercampus connectivity to support large-scale simulation, MECSAI refinement, advanced R&D, and future space operations.
+
+[2026-02-09] Strategic expansion pathway identified along interstate-aligned fiber corridors, including I-80 regions (Elko NV, Ogden UT, Pocatello ID) with future eastward extension into Wyoming pending infrastructure validation.
+
+[2026-02-09] Long-term objective formalized to integrate multiple campuses into a continent-scale super-massive cluster leveraging interstate fiber trunks.
+
+[2026-02-09] Capital strategy defined to prioritize Tier 1 infrastructure asset managers as anchor partners capable of legitimizing and syndicating institutional investment.
+
+[2026-02-09] Equity framework established anticipating surrender of approximately 20–35 percent ownership to secure an institutional anchor while retaining founder control.
+
+[2026-02-09] Governance principle accepted that control is preserved through structure rather than absolute ownership percentage.
+
+[2026-02-09] Decision made to defer political, institutional, and capital outreach until completion of engineering work, tax season obligations, and independent peer review.
+
+[2026-02-09] Requirement established for peer technical review by qualified nuclear physicists prior to external engagement, recognizing future scale as one of the largest nuclear facility operators.
+
+[2026-02-09] Long-term vision affirmed to pursue geosynchronous orbital fuel depots and shipyard infrastructure as downstream extensions of terrestrial energy and logistics dominance.
