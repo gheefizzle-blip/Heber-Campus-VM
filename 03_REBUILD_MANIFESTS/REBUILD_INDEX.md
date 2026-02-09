@@ -46,3 +46,4 @@ Deterministic rebuild manifest. Enables full reconstruction from snapshots + del
 | 2026-02-09 21:40 | Helium_Strategy | — | VM_DELTA_Helium_Strategy_20260209-2140.md | 20260209-2140 | fc9ee97 |
 | 2026-02-10 18:35 | HCV-VM-EXTRACT-002 | — | VM_DELTA_HCV-VM-EXTRACT-002_20260210-1835.md | 20260210-1835 | 15a556a |
 | 2026-02-09 15:30 | AP1000_NUCLEAR_CITADEL | — | VM_DELTA_AP1000_NUCLEAR_CITADEL_20260209-1530.md | 20260209-1530 | 07db95a |
+| 2026-02-09 14:15 | RLM_Harness_Citation_Fix | — | VM_DELTA_RLM_Harness_Citation_Fix_20260209-1415.md | 20260209-1415-2 | <pending> |
