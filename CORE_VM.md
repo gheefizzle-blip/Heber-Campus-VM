@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-09 07:15
-**VM_VERSION:** 20260209-0715
-**Status:** Delta applied - Green Compliance, Fuel Quality & Lifecycle Carbon Doctrine
+**Last Updated:** 2026-02-09 10:45
+**VM_VERSION:** 20260209-1045
+**Status:** Delta applied - CO2 Capture Integration, DAC Sizing & Carbon Tiering Doctrine
 
 ## Core Virtual Memory
 
@@ -1946,3 +1946,27 @@ Large reactor is authorized for Phase 3 ONLY if:
 [2026-02-09] Campus synthetic fuels (FT liquids) design must include aggressive syngas cleanup to achieve very low sulfur content meeting ULSD and Jet-A sulfur specifications.
 
 [2026-02-09] A "Green Compliance and Fuel Quality Doctrine" addendum is required to lock allowed carbon sources (biogenic, DAC), limits on external fossil CO2 makeup, and sulfur spec targets with required analyzers/COAs for acceptance.
+
+---
+
+## CO2 Capture Integration, DAC Sizing & Carbon Tiering Doctrine (2026-02-09)
+
+**Source:** VM_DELTA_CO2_CAPTURE_INTEGRATION_20260209-1045.md
+
+[2026-02-09] Determined that biomass gasification alone cannot reliably supply required carbon for 18,000 bpd synthetic fuel production under all operating conditions.
+
+[2026-02-09] Established that supplemental CO2 capture is structurally required to maintain 110 percent carbon availability as mandated by HC-MGD-001.
+
+[2026-02-09] Defined Direct Air Capture (DAC) as the only non-fossil pathway capable of closing the projected carbon shortfall at Heber Campus scale.
+
+[2026-02-09] Set engineering planning basis for supplemental CO2 capacity at approximately 1,500 to 3,000 metric tons per day.
+
+[2026-02-09] Formally designated DAC systems as process utilities, not revenue-generating assets, within campus architecture.
+
+[2026-02-09] Established carbon capture tiering doctrine: biomass gasification as primary carbon source, DAC as makeup carbon, flue-gas capture as optimization layer.
+
+[2026-02-09] Accepted industrial-scale DAC architectures (liquid solvent class) as baseload-capable; rejected small-scale or pilot-only DAC systems as insufficient for primary makeup duty.
+
+[2026-02-09] Mandated that external CO2 systems shall not become single points of failure and shall not dictate upstream process design.
+
+[2026-02-09] Locked requirement that DAC and CO2 capture loads be dispatchable based on internal power availability and not constrain primary energy systems.
