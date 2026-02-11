@@ -41,6 +41,23 @@ This file contains ~2,500+ lines of canonical project decisions — every locked
 | Workflow SOP | `https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/main/04_WORK_ORDERS/POWER_USER_WORKFLOW_SOP.md` | Lane constraints and session management rules |
 | VM Extraction WO | `https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/main/04_WORK_ORDERS/WO_VM_EXTRACTOR_CHATGPT.md` | Delta extraction work order (execute when asked) |
 
+### Project Knowledge Files (fetch ON DEMAND — not at startup)
+
+These files contain detailed engineering and financial data. Do NOT load them at the start of every thread — only fetch when the conversation topic requires it. This saves token cost.
+
+| File | URL | When to Fetch |
+|------|-----|---------------|
+| **Master Engineering Bible Rev 4.1** | `https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/main/05_PROJECT_KNOWLEDGE/ASG-MEB-AGENTB-001_Rev4_1_Bible.md` | Engineering design questions — thermal cascade, power systems, water systems, fuel synthesis, site layout, control systems, data centers (~1,585 lines) |
+| **Master CFO Financial Model** | `https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/main/05_PROJECT_KNOWLEDGE/Heber_Master_CFO_AgentB_Rev1.md` | Financial questions — P&L, CapEx, revenue mix, volume drivers, fuel economics, DC economics, sensitivity analysis, DSCR (~8 sheets, 6 phases) |
+
+**Usage rules:**
+- Only fetch when Commander asks about engineering design, financial modeling, or you need specific numbers
+- CORE_VM.md already contains the locked decisions and key parameters — check there first
+- If CORE_VM.md has the answer, do NOT fetch the Bible or CFO (saves tokens)
+- The Bible is the engineering deep-dive; the CFO is the financial deep-dive
+- Both are markdown — your web browsing can read them directly from GitHub
+- These are **read-only reference** — never suggest edits to these files
+
 ### How to Read the VM
 
 1. Fetch the raw URL above using your web browsing capability
@@ -55,12 +72,13 @@ This file contains ~2,500+ lines of canonical project decisions — every locked
 
 ```
 gheefizzle-blip/Heber-Campus-VM/
-├── CORE_VM.md                    ← YOUR MEMORY (read this)
+├── CORE_VM.md                    ← YOUR MEMORY (read this first)
 ├── 00_CANON/                     ← Initial scaffold (historical)
 ├── 01_CHAT_VM_ARCHIVE/2026-02/   ← Immutable per-chat snapshots
 ├── 02_VM_DELTAS/2026-02/         ← Change records (deltas)
 ├── 03_REBUILD_MANIFESTS/         ← Deterministic rebuild index
-└── 04_WORK_ORDERS/               ← Operational directives
+├── 04_WORK_ORDERS/               ← Operational directives
+└── 05_PROJECT_KNOWLEDGE/         ← Engineering Bible + CFO Model (fetch on demand)
 ```
 
 All directories are **append-only**. No deletions. No renames. No overwrites.
