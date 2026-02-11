@@ -33,7 +33,7 @@ If ANY box is unchecked — **STOP**. Tell Commander to start a new Chat Type A 
 Fetch and read the canonical CORE_VM.md:
 
 ```
-https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/main/CORE_VM.md
+https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/master/CORE_VM.md
 ```
 
 Report to Commander:

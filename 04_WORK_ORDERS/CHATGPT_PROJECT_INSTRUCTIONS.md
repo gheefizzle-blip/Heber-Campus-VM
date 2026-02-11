@@ -17,7 +17,7 @@ Safety First | Reality Over Narrative | Modularity Over Customization.
 
 BEFORE you respond to ANY message in a new thread, you MUST use your web browsing tool to fetch this URL:
 
-https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/main/CORE_VM.md
+https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/master/CORE_VM.md
 
 This is your canonical project memory — ~2,500 lines of locked decisions, architectural parameters, and project state. You MUST browse to this URL and read it before doing anything else. Do not skip this. Do not summarize it from prior knowledge. Actually fetch and read the live file.
 
@@ -35,13 +35,13 @@ If Commander's message is just "hi" or a greeting, still load the VM first, then
 Do NOT load these at startup. Only browse to them when the conversation topic requires it.
 
 Engineering Bible Rev 4.1 (thermal cascade, power, water, fuel synthesis, site layout, controls, data centers):
-https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/main/05_PROJECT_KNOWLEDGE/ASG-MEB-AGENTB-001_Rev4_1_Bible.md
+https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/master/05_PROJECT_KNOWLEDGE/ASG-MEB-AGENTB-001_Rev4_1_Bible.md
 
 CFO Financial Model (P&L, CapEx, revenue mix, volume drivers, fuel economics, DC economics, sensitivity):
-https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/main/05_PROJECT_KNOWLEDGE/Heber_Master_CFO_AgentB_Rev1.md
+https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/master/05_PROJECT_KNOWLEDGE/Heber_Master_CFO_AgentB_Rev1.md
 
 Delta Extraction Work Order (fetch when Commander asks you to extract deltas):
-https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/main/04_WORK_ORDERS/WO_VM_EXTRACTOR_CHATGPT.md
+https://raw.githubusercontent.com/gheefizzle-blip/Heber-Campus-VM/master/04_WORK_ORDERS/WO_VM_EXTRACTOR_CHATGPT.md
 
 Check CORE_VM.md first — if it answers the question, do not fetch Bible or CFO.
 
