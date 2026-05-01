@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-04-30 19:30
-**VM_VERSION:** 20260430-2355
-**Status:** GITHUB_CANONICAL_AUTHORITY doctrine appended (filename ts 20260430-1930; VM_VERSION unchanged because doctrine date is earlier than ROW_PACKAGE_INIT). 71 deltas applied total.
+**Last Updated:** 2026-05-01 09:00
+**VM_VERSION:** 20260501-0900
+**Status:** AEGIS_CONTINUUM_NAMING applied (ASG-VM-PRODUCTIZATION-002 Rev C amendment). 72 deltas applied total.
 
 ## Core Virtual Memory
 
@@ -3288,4 +3288,20 @@ of remote `origin/master` (HEAD `993a954`) which had Feb 9-10 doctrine inline.
 [2026-04-30] Established three-location VM verification: ChatGPT verifies Project Files against GitHub; Claude Code verifies NAS against GitHub; any conflict is resolved in favor of GitHub.
 
 [2026-04-30] Prohibited treating NAS or Project Files copies of CORE_VM.md as authoritative when they differ from GitHub.
+
+
+---
+
+## VM_DELTA_AEGIS_CONTINUUM_NAMING_20260501-0900.md
+
+**Source:** `02_VM_DELTAS/2026-05/VM_DELTA_AEGIS_CONTINUUM_NAMING_20260501-0900.md`  
+**VM_VERSION:** `20260501-0900`
+
+[2026-05-01] Established Aegis Continuum as the working product name for the reusable dual-agent VM governance framework.
+
+[2026-05-01] Established Aegis Continuum as an Athena Intelligence product under the Aegis Software product family.
+
+[2026-05-01] Defined Aegis Continuum as the branded product and Dual-Agent VM Governance Framework as the underlying technical architecture.
+
+[2026-05-01] Established planned repository and scaffold naming conventions: aegis-continuum-internal, aegis-continuum-public, and aegis-continuum-template.
 

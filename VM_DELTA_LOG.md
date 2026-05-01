@@ -111,3 +111,11 @@ END OF VM_DELTA_LOG (Path A backfill)
 - **Source:** Commander payload at 19:30 UTC establishing GitHub as canonical source of truth and three-location verification protocol
 - **Notes:** First post-recovery delta. Self-applies the new GitHub-canonical doctrine.
 
+
+### 2026-05-01 09:00 — VM_DELTA_AEGIS_CONTINUUM_NAMING_20260501-0900.md
+
+- **Status:** GENERATED → APPLIED (single workflow event per Logging Doctrine)
+- **Commit hash:** (to be filled after commit)
+- **Source:** Commander payload at 09:00 UTC, ASG-VM-PRODUCTIZATION-002 Rev C amendment
+- **Notes:** Brand and naming doctrine for the dual-agent VM governance framework. Product = "Aegis Continuum" under Athena Intelligence / Aegis Software family. Architecture (technical category) retains the name "Dual-Agent VM Governance Framework". Planned-only scaffold/repo names: aegis-continuum-internal, aegis-continuum-public, aegis-continuum-template. No repos created or renamed.
+
