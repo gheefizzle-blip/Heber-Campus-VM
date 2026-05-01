@@ -107,7 +107,7 @@ END OF VM_DELTA_LOG (Path A backfill)
 ### 2026-04-30 19:30 — VM_DELTA_GITHUB_CANONICAL_AUTHORITY_20260430-1930.md
 
 - **Status:** GENERATED → APPLIED (single workflow event; saved, applied to CORE_VM.md, indexed, committed in same operation per Logging Doctrine)
-- **Commit hash:** (to be filled after commit)
+- **Commit hash:** `f52cb26`
 - **Source:** Commander payload at 19:30 UTC establishing GitHub as canonical source of truth and three-location verification protocol
 - **Notes:** First post-recovery delta. Self-applies the new GitHub-canonical doctrine.
 
