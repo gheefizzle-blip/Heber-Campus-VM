@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-04-30 18:50
+**Last Updated:** 2026-04-30 19:30
 **VM_VERSION:** 20260430-2355
-**Status:** HCV-VM-RECOVERY-001 (Path A) applied — 22 April 2026 deltas appended through ROW_PACKAGE_INIT (latest: 2026-04-30 23:55). Feb 9–10 doctrine remains as previously committed inline.
+**Status:** GITHUB_CANONICAL_AUTHORITY doctrine appended (filename ts 20260430-1930; VM_VERSION unchanged because doctrine date is earlier than ROW_PACKAGE_INIT). 71 deltas applied total.
 
 ## Core Virtual Memory
 
@@ -3275,3 +3275,17 @@ of remote `origin/master` (HEAD `993a954`) which had Feb 9-10 doctrine inline.
 [2026-04-13] Defined dual-campus water strategy doctrine: Heber Campus operates as a water-balanced or water-positive closed-loop system, while Holbrook Ranch operates as a water-minimized, infrastructure-driven system with reduced reliance on hydrological inputs.
 
 ## DELTA END
+
+---
+
+## VM_DELTA_GITHUB_CANONICAL_AUTHORITY_20260430-1930.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_GITHUB_CANONICAL_AUTHORITY_20260430-1930.md`  
+**VM_VERSION:** `20260430-1930`
+
+[2026-04-30] Established GitHub as the canonical source of truth for CORE_VM.md and all VM governance artifacts. NAS and Project Files are operational mirrors only and must be synchronized from GitHub after successful VM delta application and push.
+
+[2026-04-30] Established three-location VM verification: ChatGPT verifies Project Files against GitHub; Claude Code verifies NAS against GitHub; any conflict is resolved in favor of GitHub.
+
+[2026-04-30] Prohibited treating NAS or Project Files copies of CORE_VM.md as authoritative when they differ from GitHub.
+
