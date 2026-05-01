@@ -1,0 +1,13 @@
+# Credential and secret quarantine (HCV-VM-RECOVERY-001 Phase 0)
+API KEY/
+*API*KEY*
+*api*key*
+*.env
+.env
+secrets/
+credentials/
+
+# IDE / OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
