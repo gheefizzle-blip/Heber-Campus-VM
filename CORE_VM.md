@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-02-09 22:45
-**VM_VERSION:** 20260209-2245
-**Status:** Delta applied - Phase 1 Canonical Parameters & Financial Model
+**Last Updated:** 2026-04-30 18:50
+**VM_VERSION:** 20260430-2355
+**Status:** HCV-VM-RECOVERY-001 (Path A) applied — 22 April 2026 deltas appended through ROW_PACKAGE_INIT (latest: 2026-04-30 23:55). Feb 9–10 doctrine remains as previously committed inline.
 
 ## Core Virtual Memory
 
@@ -2586,3 +2586,692 @@ Large reactor is authorized for Phase 3 ONLY if:
 [2026-02-09] Phase 1 includes a contingency allocation of $1.0B in the CapEx breakdown.
 
 [2026-02-09] Official Phase 1 timeline is: project development starts Q2 2026, financial close Q4 2028, and commercial operation (COD) in 2030.
+
+---
+
+# Apr 2026 Doctrine Block — HCV-VM-RECOVERY-001 (Path A Reconciliation, 2026-04-30)
+
+The 22 sections below were applied during HCV-VM-RECOVERY-001 (Path A reconciliation).
+Each section preserves the source delta's atomic entries verbatim. Applied on top
+of remote `origin/master` (HEAD `993a954`) which had Feb 9-10 doctrine inline.
+
+
+---
+
+## VM_DELTA_AEGIS_SOFTWARE_LOGO_20260430-0000.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_AEGIS_SOFTWARE_LOGO_20260430-0000.md`  
+**VM_VERSION:** `20260430-0000`
+
+[2026-04-30] Established Aegis Software as a product identity under Athena Intelligence.
+
+[2026-04-30] Adopted the Aegis Software logo concept featuring a blue and silver shield, Greek-style helmet, circuit motif, and luminous central core.
+
+[2026-04-30] Corrected the Aegis Software logo typography requirement to include a complete top crossbar on the letter F in SOFTWARE.
+
+## DELTA END
+
+---
+
+## VM_DELTA_AP1000_FLEET_CAPEX_CFO_20260413-2359.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_AP1000_FLEET_CAPEX_CFO_20260413-2359.md`  
+**VM_VERSION:** `20260413-2359`
+
+[2026-04-13] Adopted AP1000 fleet deployment model as the canonical execution strategy for Heber Campus, transitioning from single-unit project logic to multi-unit standardized production architecture aligned with Westinghouse fleet-scale deployment.
+
+[2026-04-13] Established requirement that Phase 1 site development must be designed and constructed to support full 12-unit AP1000 buildout, including civil grading, infrastructure corridors, and Nuclear Citadel layout, with no redesign permitted in later phases.
+
+[2026-04-13] Defined nuclear cost learning curve for AP1000 fleet deployment: Unit 1 as FOAK (~$12.5B), Unit 2 reduced (~$10.5B), Units 3–6 stabilized (~$9.25B average), Units 7–12 optimized (~$8.25B average).
+
+[2026-04-13] Established total site infrastructure CapEx at approximately $5.0B, with front-loaded allocation of ~$3.5B in Phase 1, ~$1.0B in Phase 2, and ~$0.5B across remaining phases.
+
+[2026-04-13] Defined per-PFT non-nuclear CapEx baseline at approximately $2.5B including SOEC systems, refinery, data centers, BESS, and balance of plant.
+
+[2026-04-13] Calculated Phase 1 total CapEx at approximately $31.5B for 2 PFT including two AP1000 units, PFT systems, and full-site infrastructure preparation.
+
+[2026-04-13] Calculated full program CapEx for 12 PFT buildout at approximately $144.5B with blended nuclear cost of ~$9.0B per reactor and ~$6.9M/MW across total campus installed capacity.
+
+[2026-04-13] Established infrastructure amortization principle: upfront infrastructure investment distributed across 12-unit deployment results in effective per-reactor infrastructure cost of approximately $417M, reducing total program cost relative to phased rework approach.
+
+[2026-04-13] Defined Phase 1 revenue baseline at approximately $2.56B annually composed of data center operations (~$1.56B), fuel production (~$860M), and power export (~$142M).
+
+[2026-04-13] Established Phase 1 EBITDA baseline at approximately $1.0B annually using conservative 40% margin assumption across integrated revenue streams.
+
+[2026-04-13] Determined Phase 1 standalone DSCR at approximately 0.67 under standard 60/40 debt-equity structure, requiring financial structuring intervention to meet lender thresholds.
+
+[2026-04-13] Integrated tax credit monetization (45V hydrogen and 45Q carbon capture) into Phase 1 financial model, contributing estimated $400M–$700M annually to EBITDA.
+
+[2026-04-13] Established Phase 1 structured DSCR recovery pathway using tax credits, DSRA, bridge financing, and equity adjustments to achieve lender-acceptable DSCR range of 1.3–1.5.
+
+[2026-04-13] Defined Phase 2 as financial inflection point where DSCR exceeds 1.4 and project transitions from externally supported to self-funding expansion model.
+
+[2026-04-13] Established Phase 3 and beyond as stabilized high-margin infrastructure operation with DSCR >1.7 and predictable scaling economics.
+
+[2026-04-13] Defined project financial identity as phased infrastructure deployment engine rather than single-project development, with each phase improving cost efficiency, risk profile, and capital access.
+
+[2026-04-13] Established strategic principle that Phase 1 must be optimized for full-scale replication (12 units) rather than local optimization (2 units), with early commitment to scale as primary driver of CapEx efficiency and financial performance.
+
+## DELTA END
+
+---
+
+## VM_DELTA_ATB_AEGIS_COMPLIANCE_20260430-1300.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_ATB_AEGIS_COMPLIANCE_20260430-1300.md`  
+**VM_VERSION:** `20260430-1300`
+
+[2026-04-30] Authorized execution-phase advancement for ATB Option A safety upgrades covering continuous inerting O2 analytics with interlock, HIPPS evaluation for credible overpressure scenarios, active bonding/ground integrity monitoring with interlock, and seismic anchorage retrofit for critical equipment.
+
+[2026-04-30] Established that ATB regulatory compliance questions shall be drafted as structured requests and routed to Aegis for clause-cited compliance model evaluation.
+
+[2026-04-30] Established Aegis regulatory interrogation outputs as structured compliance matrices only, requiring clause citations, compliance determination, deficiencies, required engineering changes, residual regulatory risk ranking, and jurisdictional variability notes.
+
+[2026-04-30] Defined Aegis interrogation scope for inerting systems to include NFPA 69, IEC 61511, NFPA 55, and NFPA 2 where applicable.
+
+[2026-04-30] Defined Aegis interrogation scope for HIPPS to include IEC 61511, ISO 4126, ASME BPVC Section VIII, and NFPA 2 where applicable.
+
+[2026-04-30] Defined Aegis interrogation scope for static electricity and bonding monitoring to include NFPA 77, IEC 60079-32-1, and NFPA 30 where applicable.
+
+[2026-04-30] Defined Aegis interrogation scope for seismic anchorage retrofit to include ASCE 7, locally adopted IBC requirements, and NFPA 2 anchorage provisions where applicable.
+
+[2026-04-30] Confirmed Aegis is nearing final compliance and regulatory review assembly and will be used by the Commander to process ATB-specific regulatory questions and return determinate compliance answers.
+
+## DELTA END
+
+---
+
+## VM_DELTA_BIOMASS_PHASING_VERIFICATION_20260430-0000.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_BIOMASS_PHASING_VERIFICATION_20260430-0000.md`  
+**VM_VERSION:** `20260430-0000`
+
+[2026-04-30] Biomass generation architecture formally corrected from static per-PFT allocation to phased deployment model: Phase 1–4 at 100 MWe/PFT, Phase 5 at 90 MWe/PFT, Phase 6 at 83.3 MWe/PFT, with total campus capacity fixed at 1,000 MWe. :contentReference[oaicite:0]{index=0}
+
+[2026-04-30] Canonical error identified and resolved: prior biomass allocation of 167 MWe/PFT was based on Phase 3 denominator (1,000 ÷ 6) and is invalid for Phase 1–2 modeling. :contentReference[oaicite:1]{index=1}
+
+[2026-04-30] Phase 1 biomass allocation locked at 100 MWe per PFT (200 MWe total ÷ 2 PFTs), replacing prior incorrect assumptions in Core Memory and financial models. :contentReference[oaicite:2]{index=2}
+
+[2026-04-30] Phase 1 night power supply per PFT corrected to 1,320 MWe (AP1000 1,100 + Tail Gas 100 + Biomass 100 + Steam Turbine 20). :contentReference[oaicite:3]{index=3}
+
+[2026-04-30] Phase 1 night load baseline confirmed at approximately 1,194 MWe after WP-1 and WP-6 reductions; load figure requires periodic reconciliation against equipment-level modeling before financial use. :contentReference[oaicite:4]{index=4}
+
+[2026-04-30] Phase 1 night margin corrected to +126 MWe per PFT (1,320 supply – 1,194 load), replacing previously propagated incorrect margin of +193 MWe. :contentReference[oaicite:5]{index=5}
+
+[2026-04-30] Phase 1 export profile established as +252 MWe night and +682 MWe day for 2-PFT configuration, subject to reserve and financeability constraints. :contentReference[oaicite:6]{index=6}
+
+[2026-04-30] Financial modeling constraint established: export capacity must be evaluated under reserve requirements (minimum ~10 percent spinning reserve), reducing financeable export below theoretical margin.
+
+[2026-04-30] Governance rule established: biomass capacity must be modeled as phase-dependent infrastructure and shall not be represented as full-build capacity in early-phase financial or engineering documents.
+
+[2026-04-30] CFO model correction required: flat 1 GW biomass assumption from Phase 1 is invalid; all financial models must reflect phased biomass deployment aligned with PFT expansion schedule. :contentReference[oaicite:7]{index=7}
+
+## DELTA END
+
+---
+
+## VM_DELTA_CAD_GIS_PIPELINE_AEGIS_INTEGRATION_20260429-2359.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_CAD_GIS_PIPELINE_AEGIS_INTEGRATION_20260429-2359.md`  
+**VM_VERSION:** `20260429-2359`
+
+[2026-04-29] Established hybrid CAD/GIS execution architecture where Autodesk Civil/GIS tools serve as the authoritative terrain and civil engineering layer and Onshape serves as the mechanical engineering layer, with strict upstream-to-downstream data flow from civil to mechanical.
+
+[2026-04-29] Defined that terrain, drainage, grading, and hydrology models must be generated and controlled in Autodesk Civil/GIS systems prior to any mechanical CAD development, with mechanical systems required to adapt to terrain rather than modifying it.
+
+[2026-04-29] Formalized that Claude Code operates as the deterministic data acquisition and preprocessing pipeline for GIS inputs, including DEM, LiDAR, and geospatial datasets, producing standardized import packages for Autodesk ingestion.
+
+[2026-04-29] Established that Autodesk Civil 3D and associated tools are to be operated by agent workflows via API, scripting, or automation interfaces for terrain modeling, drainage engineering, and grading analysis.
+
+[2026-04-29] Defined that Onshape is to be used exclusively for mechanical and plant-level design layered on top of imported terrain meshes derived from Autodesk civil outputs.
+
+[2026-04-29] Adopted AEGIS as the orchestration layer responsible for coordinating data acquisition, civil modeling, mechanical modeling, and validation workflows across Autodesk and Onshape environments.
+
+[2026-04-29] Established canonical workflow sequence: (1) terrain data acquisition and preprocessing, (2) civil terrain and drainage model generation in Autodesk, (3) export of simplified terrain mesh, (4) mechanical layout in Onshape, (5) cross-domain validation under AEGIS.
+
+[2026-04-29] Defined requirement for a centralized digital engineering data spine where terrain, civil, mechanical, and environmental models are version-controlled and synchronized across all agent workflows.
+
+[2026-04-29] Established rule that terrain models are treated as immutable ground truth within the engineering stack and may only be modified by civil engineering workflows, not by mechanical CAD operations.
+
+[2026-04-29] Adopted campus design execution doctrine that topographical and hydrological civil engineering must precede all detailed mechanical CAD work, including plant layout, piping, and infrastructure placement.
+
+[2026-04-29] Formalized that initial CAD work for the Heber Campus shall begin with site topology modeling, drainage basin definition, stormwater capture routing, and grading strategy to support the Rev 4.2 water-positive doctrine.
+
+[2026-04-29] Confirmed that infrastructure corridor reservation (electrical, thermal, hydrogen, CO2, water, and transportation) must be defined during the civil topology phase to prevent Phase 1 to Phase N expansion conflicts.
+
+[2026-04-29] Established that Loop B heat rejection architecture identified in planning must be integrated into future Master Engineering Bible revisions (Rev 4.3 candidate) but does not gate initiation of civil topology modeling.
+
+[2026-04-29] Defined that civil/topology CAD work is classified as AUTHORITATIVE foundation work and is permitted to proceed in parallel with ongoing engineering doctrine refinement (e.g., Loop B cooling architecture finalization).
+
+## DELTA END
+
+---
+
+## VM_DELTA_CHAT_CONTINUITY_AND_MARKET_DOCTRINE_20260429-0001.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_CHAT_CONTINUITY_AND_MARKET_DOCTRINE_20260429-0001.md`  
+**VM_VERSION:** `20260429-0001`
+
+[2026-04-29] Established ASG-MEB-AGENTB-001 Rev 4.2 as the canonical Master Engineering Bible for all forward-looking design, engineering, and system integration activities.
+
+[2026-04-29] Defined ASG-MEB-AGENTB-001 Rev 4.1 as a legacy reference baseline retained for historical context, validation, and regression comparison only.
+
+[2026-04-29] Locked rule that where conflicts exist between ASG-MEB-AGENTB-001 Rev 4.1 and Rev 4.2, Rev 4.2 supersedes unless an explicit VM delta overrides a specific section.
+
+[2026-04-29] Maintained CORE_VM.md as the controlling authority for all locked decisions, constraints, and system parameters; Bible revisions do not override VM-locked values without explicit delta authorization.
+
+[2026-04-29] Established VM continuity prompting as an Agent A operating requirement: when new permanent decisions, constraints, vendor selections, architecture changes, control logic definitions, or interface definitions are generated, Agent A shall ask the Commander whether the information should be captured as a VM delta.
+
+[2026-04-29] Defined that VM delta prompts shall be concise, non-disruptive, and limited to meaningful decision points; Agent A shall not generate deltas without explicit Commander approval.
+
+[2026-04-29] Established that synthetic fuel production planning for Heber Campus shall be based on a volatility-driven oil market model derived from historical conflict and supply disruption patterns rather than static price assumptions.
+
+[2026-04-29] Defined historical oil market behavior pattern as rapid price escalation during geopolitical conflict or supply disruption, overshoot above actual physical supply loss, followed by gradual normalization with a persistently elevated price floor relative to the pre-event baseline.
+
+[2026-04-29] Locked that planning scenarios shall incorporate recurring disruption cycles over a 10-year horizon, including spike, plateau, normalization, and recession-driven reset phases.
+
+[2026-04-29] Defined that synthetic fuel margin modeling shall assume fixed production cost structure with market-linked pricing exposure, positioning Heber Campus as a fixed-cost energy platform selling into a volatile commodity market.
+
+[2026-04-29] Established that volatility, not sustained high oil price, is the primary economic advantage driver for Heber Campus fuel production, enabling margin expansion, contract premium capture, and market positioning during disruption cycles.
+
+[2026-04-29] Defined that diesel and distillate products shall be modeled with higher volatility and slower price normalization compared to crude oil due to refining constraints and global distillate supply limitations.
+
+[2026-04-29] Locked requirement that long-term financial modeling shall include both high-price spike scenarios and post-recession demand destruction scenarios to ensure resilience under both expansion and contraction conditions.
+
+[2026-04-29] Established that fuel offtake strategy shall prioritize contract stability, supply certainty, and regional market positioning during volatility windows rather than reliance on spot market pricing.
+
+## DELTA END
+
+---
+
+## VM_DELTA_FED_POLICY_IMPACT_HEBER_20260430-1300.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_FED_POLICY_IMPACT_HEBER_20260430-1300.md`  
+**VM_VERSION:** `20260430-1300`
+
+[2026-04-30] Established execution doctrine that NEPA and EIS processes for Heber Campus must be treated as litigation-grade records rather than minimum compliance artifacts.
+
+[2026-04-30] Defined operational requirement that environmental documentation shall be overbuilt to withstand procedural and substantive legal challenges across multi-year litigation timelines.
+
+[2026-04-30] Confirmed that accelerated federal leasing timelines improve Phase 0-A positioning but do not materially reduce full regulatory approval duration for nuclear-scale development.
+
+[2026-04-30] Reinforced that Right-of-Way (ROW) acquisition remains the primary schedule-critical constraint for Heber Campus, superseding land acquisition and generation deployment timelines.
+
+[2026-04-30] Established that early-phase land control strategy must prioritize speed and pre-positioning due to increased competitive access under accelerated federal leasing policies.
+
+[2026-04-30] Defined policy that ROW applications must be initiated at earliest possible phase and pursued in parallel with land acquisition and environmental review processes.
+
+[2026-04-30] Confirmed that hybrid energy architectures (nuclear + renewable + dispatchable generation) improve project financeability under current federal policy environment.
+
+[2026-04-30] Established that Heber Campus three-legged revenue model (power, fuels, data centers) is structurally aligned with current federal energy policy and lender risk preferences.
+
+[2026-04-30] Defined litigation assumption doctrine: multiple external legal challenges are considered guaranteed and must be incorporated into baseline execution planning.
+
+[2026-04-30] Identified primary litigation vectors as environmental, water, and regional stakeholder challenges rather than federal agency opposition.
+
+[2026-04-30] Established that campus water strategy (stormwater capture, managed aquifer recharge, net-positive contribution) functions as both engineering system and legal defense mechanism.
+
+[2026-04-30] Confirmed that water-positive operational doctrine strengthens permitting position and mitigates aquifer impact litigation risk.
+
+[2026-04-30] Defined requirement that environmental, water, and land-use documentation must be structured to support both permitting approval and downstream legal defense.
+
+[2026-04-30] Established execution principle that federal policy environment favors early-phase acceleration and late-phase legal risk, requiring dual-track strategy of speed and defensibility.
+
+## DELTA END
+
+---
+
+## VM_DELTA_HEBER_REV42_WATER_LOOPB_20260430-1347.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_HEBER_REV42_WATER_LOOPB_20260430-1347.md`  
+**VM_VERSION:** `20260430-1347`
+
+[2026-02-27] Rev 4.2 planning basis corrected biomass phasing to 200 MWe total in Phase 1, 400 MWe in Phase 2, 600 MWe in Phase 3, 800 MWe in Phase 4, 900 MWe in Phase 5, and 1,000 MWe in Phase 6, yielding per-PFT biomass shares of 100 MWe in Phases 1-4, 90 MWe in Phase 5, and 83.3 MWe in Phase 6.
+
+[2026-02-27] Rev 4.2 planning basis corrected Phase 1 firm margin to 1,320 MWe supply, 1,194 MWe night load, +126 MWe night margin per PFT, +341 MWe day margin per PFT, and +252 MWe night / +682 MWe day export for two PFTs.
+
+[2026-02-27] Water strategy was formalized around managed aquifer recharge as the seasonal battery, three-tier drainage segregation, and water-positive accounting measured on annual and decadal timescales rather than direct daily stormwater self-sufficiency.
+
+[2026-02-27] Gate 1 SOEC water reconciliation fixed per-PFT stoichiometric SOEC water demand at 1.19 MGD, gross demand at 1.76 MGD engineering and 2.05 MGD conservative, total recovery at 0.85 MGD engineering and 0.73 MGD conservative, net demand at 0.91 MGD engineering and 1.32 MGD worst-case, and adopted 1.10 MGD/PFT as the mid-conservative planning bracket.
+
+[2026-02-27] Heber Campus water-positive doctrine adopted 0.91 MGD/PFT as the engineering planning basis, 1.10 MGD/PFT as the underwriting conservative basis, and 1.32 MGD/PFT as the stress-test worst case.
+
+[2026-02-27] Four water validation gates were established: Gate 1 SOEC water reconciliation complete; Gate 2 field NCF validation scoped; Gate 3 hydrogeology and recharge feasibility scoped; Gate 4 BLM/ADWR pre-application scoped.
+
+[2026-02-27] The 10-year aquifer-cycle doctrine was formalized to treat dry years as expected drawdowns within a rolling 10-year water-positive accounting model, with phased construction banking surplus recharge before full-build demand arrives.
+
+[2026-04-30] Rev 4.2 was determined to leave Loop B return-temperature control and heat rejection implicit; a dedicated Loop B heat-rejection subsystem was required on the cooled Loop B return between HX-DAC/HX-ECO and HX-DC.
+
+[2026-04-30] Loop B residual heat-rejection duty was quantified at approximately 22-28 MWth per PFT under normal operation after HX-DAC and HX-ECO recovery, establishing a Phase 1 radiator-yard duty of approximately 44-56 MWth.
+
+[2026-04-30] Loop B heat rejection adopted a split / cool / bypass / recombine hydraulic architecture using dry radiator banks as the primary sink, sectional adiabatic trim as peak-summer assist only, and a cold-side thermal buffer tank as a thermal flywheel.
+
+[2026-04-30] Loop B return-temperature control and data-center protection were decoupled from DAC operating status; DAC airflow may provide aerodynamic assist, but DAC fan operation shall not be a required condition for minimum Loop B cooling performance.
+
+[2026-04-30] DAC arrays and Loop B radiator banks were defined to co-locate in a shared open thermal yard using low-static aerodynamic assist rather than hard common ducting.
+
+[2026-04-30] Loop B cooling control was divided with MECSAI as supervisory optimizer and local PLC/DCS as owner of real-time split-valve, bypass, mixing, fan, and trim logic.
+
+[2026-04-30] Loop B heat-rejection modularity was defined through phase-expandable Thermal Yard Modules added with DAC/PFT growth, with common headers and control backbone built early and radiator capacity added by module.
+
+[2026-04-30] Loop B radiator-yard freeze basis was updated to a circulating water-glycol mixture with seasonal O&M procedures for rare extended freeze events; ammonia remained prohibited as a campus-wide Loop B fluid.
+
+[2026-04-30] A dedicated Loop B Heat Rejection and Thermal Yard Architecture work package was determined to be required.
+
+[2026-04-30] Additional Level-2 integration gaps were identified for follow-on engineering: biomass pre-treatment and drying, adiabatic evaporation penalty in the water balance, MVDC topology and fault-protection reconciliation, oxygen dynamic handling capacity sizing, and black-start endurance sizing.
+
+## DELTA END
+
+---
+
+## VM_DELTA_HOLBROOK_INDUSTRIAL_STACK_20260429-2355.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_HOLBROOK_INDUSTRIAL_STACK_20260429-2355.md`  
+**VM_VERSION:** `20260429-2355`
+
+[2026-04-29] Established Holbrook Ranch as the designated primary location for cement kiln and clinker production, with Heber Campus restricted to cement grinding, blending, and concrete batching functions.
+
+[2026-04-29] Defined dual-campus industrial specialization model: Heber Campus assigned as energy conversion and carbon consumption hub; Holbrook Ranch assigned as materials production, chemical processing, and carbon generation hub.
+
+[2026-04-29] Formalized Holbrook Ranch as the headquarters location for Demeter Chemical Systems, encompassing potash extraction, fertilizer production, and mineral-based industrial outputs.
+
+[2026-04-29] Established synthetic methane (SNG) production at Holbrook Ranch as a core energy product derived from CO2 and hydrogen integration, distinct from fossil natural gas.
+
+[2026-04-29] Defined Holbrook Ranch product stack anchors: potash (MOP/SOP), ammonia, urea, and integrated fertilizer products as primary revenue-generating outputs.
+
+[2026-04-29] Established phased Demeter build sequence: Phase 1 cement and basic potash extraction; Phase 2 ammonia and urea production; Phase 3 specialty fertilizers and agriculture integration; Phase 4 advanced chemicals and methane scaling.
+
+[2026-04-29] Confirmed that cement kiln CO2 at Holbrook Ranch will serve as a permanent, non-discretionary carbon feedstock source for PFT operations, reducing dependency on external industrial CO2 suppliers.
+
+[2026-04-29] Defined greenhouse agriculture at Holbrook Ranch as a controlled-environment agriculture platform primarily for revenue generation and CO2 utilization, with biomass contribution limited to secondary residual streams.
+
+[2026-04-29] Established agricultural portfolio allocation guidance: 20-30% cannabis, 30-40% produce, 10-20% specialty/seed production, and 20-30% open-field biomass crops.
+
+[2026-04-29] Defined cannabis cultivation as a ring-fenced subsidiary activity with separate financial, regulatory, and insurance structures to prevent contamination of core infrastructure financing.
+
+[2026-04-29] Established Demeter cleaning products vertical with five initial SKUs: industrial degreaser, hard surface cleaner, glass cleaner, laundry detergent, and concrete equipment cleaner.
+
+[2026-04-29] Defined cleaning products manufacturing approach as Phase 1 blending facility with sourced surfactants and internally produced alkaline inputs, expanding to partial vertical integration in later phases.
+
+[2026-04-29] Established solar panel cleaning as a major internal consumable demand driven by ~12,000 acres of solar per campus, creating 1-2 million gallons/year baseline cleaning product consumption.
+
+[2026-04-29] Defined MECSAI-SOLAR-OPS module as a closed-loop solar performance optimization system using expected vs actual output deviation as the primary cleaning trigger metric.
+
+[2026-04-29] Established multi-tier solar cleaning trigger thresholds: <2% monitor, 2-5% queue, 5-10% dispatch, >10% priority dispatch.
+
+[2026-04-29] Defined autonomous drone fleet architecture as distributed sensor-actuator nodes providing inspection, cleaning, and limited repair capabilities with two-way communication with MECSAI.
+
+[2026-04-29] Established drone system design principles: simple, modular hardware with locally manufacturable components, centralized intelligence in MECSAI, and edge autonomy for safe operation under partial connectivity.
+
+[2026-04-29] Defined dual drone classes: rover-based units for primary cleaning throughput and multirotor units for inspection and exception handling.
+
+[2026-04-29] Established drone manufacturing doctrine utilizing 3D-printed components for structural elements and commodity off-the-shelf components for motors, sensors, and control systems.
+
+[2026-04-29] Defined depot-based drone operational model including battery swapping, chemical refill, and edge compute integration for each solar zone cluster.
+
+[2026-04-29] Established constraint that drone systems may perform inspection and limited maintenance actions but shall not execute operations that introduce electrical or structural risk without human intervention.
+
+[2026-04-29] Confirmed that solar cleaning system, chemical production, water treatment, and MECSAI control form a closed-loop operational system tied directly to energy recovery and revenue optimization.
+
+## DELTA END
+
+---
+
+## VM_DELTA_LITIGATION_OVERLAY_20260413-2305.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_LITIGATION_OVERLAY_20260413-2305.md`  
+**VM_VERSION:** `20260413-2305`
+
+[2026-04-13] Established planning doctrine that Heber Campus must be treated as a litigation-certain project, with multiple lawsuits assumed across NEPA, water, species, procedural, and related federal/state permitting fronts.
+
+[2026-04-13] Defined litigation-integrated master execution structure for Heber Campus as overlapping phases rather than a linear permit-then-build model: Phase 0-A (capital and positioning), Phase 0-B (baseline studies and EIS launch preparation), Phase 1-EIS (draft and final EIS), Phase 1-LIT (lawsuits and resolution), and Phase 1-COD (construction overlap and commercial operation).
+
+[2026-04-13] Locked execution principle that litigation, engineering, financing, and vendor advancement must proceed in parallel where legally permissible; the project shall not wait for all litigation to fully conclude before advancing non-contested work.
+
+[2026-04-13] Established pre-EIS defense-record doctrine requiring baseline hydrology, ecology, air, cultural, stormwater, recharge, and related technical studies to be developed before major federal filing milestones in order to harden the administrative record against challenge.
+
+[2026-04-13] Defined the Record of Decision as the principal litigation trigger event, with post-ROD challenge windows and injunction attempts treated as expected rather than exceptional project conditions.
+
+[2026-04-13] Adopted construction sequencing doctrine requiring non-contested and low-risk infrastructure to advance first, while higher-risk elements may be delayed or sequenced strategically to preserve schedule under partial injunction or active litigation conditions.
+
+[2026-04-13] Established capital deployment doctrine that major construction capital shall not be fully committed before litigation posture is understood, while also prohibiting a wait-until-all-litigation-ends strategy that would stall project momentum.
+
+[2026-04-13] Formalized Heber-Hollbrook dual-track litigation hedge doctrine: Heber remains the flagship federal-facing campus, while Holbrook Ranch remains the fee-land execution hedge and continuity path if Heber faces material legal delay.
+
+[2026-04-13] Defined single-site dependency as an unacceptable project failure mode; maintaining Holbrook as an active parallel option is required to preserve execution continuity under Heber litigation risk.
+
+[2026-04-13] Established strategic objective that litigation is to be managed as schedule and capital pressure rather than treated as a project-stopping event, with the project designed to survive legal delay rather than assume legal avoidance.
+
+## DELTA END
+
+---
+
+## VM_DELTA_LOCAL_GOVERNANCE_SEQUENCING_20260430-0000.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_LOCAL_GOVERNANCE_SEQUENCING_20260430-0000.md`  
+**VM_VERSION:** `20260430-0000`
+
+[2026-04-30] Governance sequencing clarified that county-level political and administrative alignment is the primary gating layer for project viability prior to state and federal engagement.
+
+[2026-04-30] Determined that Navajo County support directly impacts EIS defensibility, public comment exposure, and litigation risk profile in Superior Court.
+
+[2026-04-30] Established that local government controls critical infrastructure and permitting choke points including zoning, road access, drainage compliance, and construction approvals that can delay or terminate project progression independent of federal licensing.
+
+[2026-04-30] Confirmed that federal agencies (NRC, DOE, BLM) evaluate local government alignment as a prerequisite indicator of project risk and viability before advancing permitting, financing, or land-use approvals.
+
+[2026-04-30] Defined execution model where project approval is obtained at the county level, validated at the federal level, and defended in the judicial system through Superior Court litigation.
+
+[2026-04-30] Established strategic doctrine that early-stage engagement must prioritize informal alignment with county leadership prior to formal filings to prevent premature opposition and litigation exposure.
+
+## DELTA END
+
+---
+
+## VM_DELTA_LOOPB_BIOMASS_REVC_20260430-0015.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_LOOPB_BIOMASS_REVC_20260430-0015.md`  
+**VM_VERSION:** `20260430-0015`
+
+[2026-04-30] Established Loop B post-DAC heat rejection doctrine: normal radiator duty is downstream of HX-DAC and HX-ECO on the mixed return; serial whole-loop routing through DAC was rejected in favor of branched supply/return distribution.
+
+[2026-04-30] Defined Loop B thermal cases per PFT: normal post-DAC residual duty is 22-108 MWth depending on biomass trim; sustained DAC-off contingency duty is 102-108 MWth with biomass trim bypassed; transient DAC-trip duty before biomass unload is 152-188 MWth and is handled by buffers and controls rather than steady-state radiator hardware sizing.
+
+[2026-04-30] Locked DAC-off operating rule: biomass temperature lift to Loop B is bypassed or unloaded immediately when DAC is offline; biomass electrical generation remains independently dispatchable.
+
+[2026-04-30] Established Loop B redundancy doctrine: no single segment, corridor, valve vault cluster, pump station, control cabinet, power feeder, or maintenance outage may force campus-wide thermal shutdown.
+
+[2026-04-30] Established redundancy rule that same-trench parallel pipe is not true redundancy and alternate Loop B paths must remain live, wet, and circulating.
+
+[2026-04-30] Authorized Rev C issuance for the Loop B and biomass architecture package with consolidated WP-9, WP-11, and site-geometry scope additions; full Bible integration was deferred pending work package closeout.
+
+[2026-04-30] Limited interim canon eligibility to the narrow Loop B flow-path doctrine insert; full Rev 4.3 integration was deferred until WP-9 hydraulic closeout, WP-11 biomass, oxygen, and OWTU closeout, and final site-geometry reconciliation.
+
+[2026-04-30] Accepted Bible Rev 4.2 biomass phasing correction as controlling: Phase 1 biomass allocation is 200 MWe total and 100 MWe per PFT; the older 167 MWe per-PFT basis was superseded.
+
+[2026-04-30] Designated 4 x 250 MWe biomass buildings with 3 internal trains per building as the leading full-build biomass architecture for Rev C evaluation; building packaging was not yet canonized.
+
+[2026-04-30] Locked biomass drying doctrine: routine biomass fuel drying uses biomass-side heat integration and Loop B is prohibited as a routine drying heat source.
+
+[2026-04-30] Established biomass drying heat source hierarchy: biomass-side low-grade waste heat first, flue-gas or economizer recovery second, low-pressure steam or condenser-side recovery third, and Loop B prohibited for routine drying duty.
+
+[2026-04-30] Required a Dedicated Organics Water Treatment Unit at the biomass complex for dryer condensate before Poseidon acceptance; untreated wood-vinegar condensate is prohibited from direct routing to RO, SOEC water treatment, or the clean-water pool.
+
+[2026-04-30] Added WP-11 requirement for OWTU inlet chemistry characterization, treated effluent specification, and residual organics concentrate disposal or beneficial-use pathway.
+
+[2026-04-30] Corrected the biomass oxygen and combustible-dust code basis for Rev C to NFPA 55 for oxygen systems, NFPA 660 for combustible dust, and NFPA 68 and NFPA 69 where explosion protection applies.
+
+[2026-04-30] Established oxygen and fuel-prep segregation doctrine: oxygen headers approach biomass buildings only from the clean side in underground or blast-shielded dedicated corridors and do not share routes or operating envelopes with primary fuel-prep equipment.
+
+[2026-04-30] Required per-building oxygen isolation points outside the fuel-handling exclusion zone and added oxygen exclusion-zone definition and upset-capacity sizing to WP-11.
+
+[2026-04-30] Added fines and dust deflagration controls as safety-critical content in the biomass fuel-prep ICD.
+
+[2026-04-30] Added WP-9 requirement to lock operating delta-T by segment type before pipe sizing.
+
+[2026-04-30] Added WP-9 requirement for buffer-tank stratification and mixing geometry.
+
+[2026-04-30] Added WP-9 requirement that B-corridor freeze protection meets the A-corridor standard.
+
+[2026-04-30] Added WP-9 requirement to quantify adiabatic trim water draw against the Poseidon water balance.
+
+[2026-04-30] Added WP-9 requirement for biomass manifold surge protection, controlled valve stroke speed, and water-hammer transient analysis for N3 and N4 switchover scenarios.
+
+[2026-04-30] Added site-geometry requirement for local CO2 knockout and compression skids at each biomass building boundary, campus CO2 trunk material specification, and per-building CO2 flow metering.
+
+[2026-04-30] Moved primary biomass chipping, screening, and contamination removal to a physically separated Fuel Preparation Yard outside the biomass and oxygen exclusion zone.
+
+[2026-04-30] Prohibited routine primary chipping within the biomass building envelope; biomass buildings receive pre-screened nominal 1-inch chip-class feedstock for drying, day storage, metering, and combustion feed.
+
+[2026-04-30] Defined biomass fuel-prep doctrine as nominal 1-inch chip class with screening, oversize recirculation or re-chipping, fines control, and metal and stone removal.
+
+[2026-04-30] Defined green-waste chipping as lower-dust rather than dust-free; dust and fines controls remain required at screening, transfer, drying discharge, and housekeeping points.
+
+## DELTA END
+
+---
+
+## VM_DELTA_MECSAI_SENSOR_TRACKING_20260429-2225.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_MECSAI_SENSOR_TRACKING_20260429-2225.md`  
+**VM_VERSION:** `20260429-2225`
+
+[2026-04-29] Established weekly technology tracking for industrial safety sensor developments relevant to Heber Campus and MECSAI, including electrochemical gas sensors, MEMS sensors, hydrogen and oxygen detection, battery off-gas detection, passive color-change indicators, industrial ventilation integration, SIS/PLC/SCADA interfaces, and compliance implications.
+
+[2026-04-29] Defined MECSAI Safety Observability Layer as the integration path for new sensor technologies, with MECSAI limited to observation, prediction, correlation, recommendation, evidence logging, and approved upstream mode-transition requests.
+
+[2026-04-29] Reinforced safety authority boundary that SIS, PLC, DCS, ESD, and hardware protection devices remain deterministic safety authorities, while MECSAI shall not bypass safety systems, override PLC safety limits, reset protection devices, or serve as the sole safety path.
+
+[2026-04-29] Established three sensor integration categories for MECSAI planning: electrochemical sensors for hard gas/off-gas detection, MEMS sensors for predictive equipment and structural monitoring, and passive color-change indicators for human-verification backup.
+
+[2026-04-29] Designated hydrogen and oxygen production areas, Loop B and underground distribution, BESS rooms and DC power systems, stormwater/recharge systems, and hydrogen vendor packages as priority zones for MECSAI sensor integration planning.
+
+## DELTA END
+
+---
+
+## VM_DELTA_NAVAJO_COUNTY_PERMITTING_IMPACT_20260413-0000.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_NAVAJO_COUNTY_PERMITTING_IMPACT_20260413-0000.md`  
+**VM_VERSION:** `20260413-0000`
+
+[2026-04-13] Established that Navajo County regulatory updates shift permitting risk to early-stage development, requiring pre-permit political and stakeholder alignment prior to formal application.
+
+[2026-04-13] Defined Development Agreements as a primary control mechanism for large-scale projects, governing infrastructure commitments, environmental mitigation, phasing, and community obligations over multi-decade operations.
+
+[2026-04-13] Established that Special Use Permit timelines in Navajo County constitute a critical path dependency affecting federal coordination, financing sequencing, and overall project schedule.
+
+[2026-04-13] Defined public comment processes in Navajo County as a material project risk factor requiring proactive narrative control and structured community engagement prior to permit submission.
+
+[2026-04-13] Formalized requirement that Heber Campus permitting strategy must integrate county-level approvals, BLM ROW, NEPA, and NRC processes into a single coordinated execution sequence.
+
+[2026-04-13] Established pre-development outreach doctrine requiring early engagement with county officials, local stakeholders, and regional leadership to reduce opposition risk during formal hearings.
+
+[2026-04-13] Defined permitting execution model shift from parallel engineering-permit development to pre-aligned regulatory sequencing with front-loaded compliance validation.
+
+[2026-04-13] Established that Navajo County must be treated as a co-development stakeholder rather than a downstream regulatory authority for large-scale industrial campus approval.
+
+## DELTA END
+
+---
+
+## VM_DELTA_PRE_PHASE1_STRATEGY_20260430-1325.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_PRE_PHASE1_STRATEGY_20260430-1325.md`  
+**VM_VERSION:** `20260430-1325`
+
+[2026-04-30] Defined project structuring rule separating development into two distinct packages: (1) Pre-Phase-1 Development Platform and (2) Canonical Phase 1 Execution Package.
+
+[2026-04-30] Established Pre-Phase-1 Development Platform as a formal concept including land control, transmission interconnect, solar-first infrastructure, campus BESS, early data center entry, drainage/recharge validation, and corridor preservation aligned to Rev 4.2 architecture.
+
+[2026-04-30] Established that Pre-Phase-1 infrastructure must be physically and geometrically aligned with the canonical Rev 4.2 master plan and must not require rework or relocation during Phase 1 PFT deployment.
+
+[2026-04-30] Defined constraint that Pre-Phase-1 systems are enabling infrastructure only and shall not redefine or replace canonical Phase 1 architecture based on AP1000-backed PFTs.
+
+[2026-04-30] Confirmed that data centers in canonical architecture are primary-load-integrated assets powered by AP1000 baseload with Tier 2 DC BESS and LPG turbine backup, not standalone solar+BESS primary systems.
+
+[2026-04-30] Defined requirement that any early data center deployment must utilize grid-backed or firm power supply to meet reliability constraints prior to nuclear integration.
+
+[2026-04-30] Established that campus master substation and transmission interconnect function as foundational infrastructure and must be constructed as the central power hub supporting solar, BESS, data centers, nuclear, and PFT integration.
+
+[2026-04-30] Defined requirement that Loop B thermal infrastructure may be partially deployed in Pre-Phase-1 only as modular backbone segments sized for future expansion and must maintain compliance with three-loop separation doctrine.
+
+[2026-04-30] Confirmed that BLM land development, solar deployment, and early infrastructure remain subject to full federal ROW and NEPA/EIS processes with multi-year timelines and cannot be treated as immediate revenue-generating assets.
+
+[2026-04-30] Established development capital sequencing doctrine: early-phase funding must be sourced from private development equity prior to federal program engagement; federal grants and loan programs are downstream and require project maturity.
+
+[2026-04-30] Defined development capital target for Pre-Phase-1 and early Phase 1 readiness as approximately $25M–$50M to achieve engineering, permitting, vendor engagement, and financing readiness.
+
+[2026-04-30] Established strategic objective that Pre-Phase-1 infrastructure serves to de-risk project execution, establish site credibility, enable regulatory engagement, and create early revenue pathways without compromising canonical architecture.
+
+## DELTA END
+
+---
+
+## VM_DELTA_REGULATORY_REPOSITORY_20260430-0000.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_REGULATORY_REPOSITORY_20260430-0000.md`  
+**VM_VERSION:** `20260430-0000`
+
+[2026-04-30] Established deterministic work-order-driven ingestion protocol for federal regulatory documents into the governed regulatory repository, including source verification, hash validation, metadata sidecar generation, and index updates.
+
+[2026-04-30] Formalized requirement that all regulatory documents ingested into the repository must include SHA-256 hash, source URL provenance, document ID, agency attribution, and comment deadlines where applicable.
+
+[2026-04-30] Defined canonical repository structure for federal regulatory materials partitioned by year, month, agency, and regulatory domain to ensure deterministic retrieval and auditability.
+
+[2026-04-30] Locked requirement for atomic index updates using CSV and JSON dual-format registries with strict schema enforcement and atomic write procedures to prevent partial state corruption.
+
+[2026-04-30] Established ingestion validation gates requiring successful HTTP retrieval, PDF integrity verification, file size confirmation, and header validation prior to repository commit.
+
+[2026-04-30] Defined failure protocol for regulatory ingestion workflows requiring hard fail on any document retrieval or validation error, with mandatory logging and prohibition of partial index mutation.
+
+## DELTA END
+
+---
+
+## VM_DELTA_REGULATORY_REPOSITORY_BUILD_20260430-1315.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_REGULATORY_REPOSITORY_BUILD_20260430-1315.md`  
+**VM_VERSION:** `20260430-1315`
+
+[2026-04-30] A formal work order was established to build a federally sourced regulatory repository covering BLM land authorizations, NEPA procedures, DOE categorical exclusions, and NRC environmental review frameworks.
+
+[2026-04-30] Regulatory repository acquisition doctrine defined requiring primary-source retrieval only from FederalRegister.gov, ecfr.gov, blm.gov, doi.gov, energy.gov, and nrc.gov.
+
+[2026-04-30] Repository structure standardized under /Regulatory_Repository/Federal/ with mandatory segmentation by BLM, NEPA_DOI, NEPA_DOE, NRC, and Federal_Register.
+
+[2026-04-30] Mandatory document set defined to include 43 CFR Part 2800, 43 CFR Part 2920, 43 CFR Part 2300, BLM NEPA Handbook H-1790-1, DOI 516 DM 11, DOE 10 CFR Part 1021, and NRC 10 CFR Parts 51 and 52.
+
+[2026-04-30] DOE advanced reactor categorical exclusion Federal Register issuance identified as a required canonical regulatory artifact for repository inclusion.
+
+[2026-04-30] Regulatory document ingestion standard defined requiring PDF acquisition, metadata sidecar generation, and naming convention YYYY-MM-DD_Agency_DocumentTitle_RevX.
+
+[2026-04-30] Validation doctrine established requiring confirmation of current regulatory status, identification of pending amendments, and flagging of proposed rules in comment period.
+
+[2026-04-30] Master index requirement established mandating a centralized catalog of all regulatory documents including applicability to federal land industrial campuses, hydrogen production, nuclear reactors, transmission corridors, and carbon capture.
+
+[2026-04-30] Executive regulatory interaction summary requirement established to define relationships between BLM ROW processes, DOI NEPA, DOE NEPA, and NRC environmental review frameworks.
+
+## DELTA END
+
+---
+
+## VM_DELTA_ROW_PACKAGE_INIT_20260430-2355.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_ROW_PACKAGE_INIT_20260430-2355.md`  
+**VM_VERSION:** `20260430-2355`
+
+[2026-04-30] Initiated formal BLM Right-of-Way (ROW) application package development for Heber Campus under document structure ASG-HC-ROW-001 Rev A, including SF-299, Plan of Development (POD), NEPA strategy, and supporting technical sections.
+
+[2026-04-30] Established canonical ROW package section structure consisting of 12 primary components, including Executive Summary, Project Description, POD, Environmental Baseline, NEPA Strategy, Water Systems, Power Systems, Logistics, Safety, Cost Recovery, and Appendices.
+
+[2026-04-30] Defined Heber Campus ROW application as a multi-use federal infrastructure corridor system including nuclear generation, synthetic fuels production, hydrogen systems, and data center infrastructure.
+
+[2026-04-30] Confirmed ROW legal land description aligned to T13N R16E Sections 1-36 totaling approximately 22,922 acres under BLM administration.
+
+[2026-04-30] Established Plan of Development (POD) as the primary technical evaluation document governing ROW approval, incorporating phased PFT deployment, utility corridors, and infrastructure systems.
+
+[2026-04-30] Locked POD requirement to include phased construction model (Phase 1 through full 12 PFT buildout) aligned with canonical campus expansion doctrine.
+
+[2026-04-30] Confirmed underground utility infrastructure standard (minimum 36-inch burial, pre-insulated systems with leak detection) as mandatory ROW design specification.
+
+[2026-04-30] Integrated water-positive design and managed aquifer recharge (MAR) doctrine into ROW application as primary environmental positioning strategy.
+
+[2026-04-30] Confirmed NEPA pathway as Programmatic Environmental Impact Statement (EIS) with tiered subproject approvals; EA-only or segmented NEPA strategies explicitly excluded.
+
+[2026-04-30] Established requirement for early BLM pre-application engagement supported by formal pre-application packet including executive summary, engineering overview, and environmental positioning.
+
+[2026-04-30] Defined ROW application strategy as federal-scale project positioning effort rather than standard utility permitting process, requiring integrated multi-agency coordination.
+
+## DELTA END
+
+---
+
+## VM_DELTA_SOEC_VENDOR_INTERFACE_20260429-0000.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_SOEC_VENDOR_INTERFACE_20260429-0000.md`  
+**VM_VERSION:** `20260429-0000`
+
+[2026-04-29] Established that SOEC vendor public documentation is limited to high-level datasheets and marketing-level technical specifications; bid-grade performance data, full interface definitions, and integration constraints are not publicly available.
+
+[2026-04-29] Defined that Interface Control Documents (ICDs) for SOEC systems are vendor-controlled and released only under NDA during formal RFI/RFQ or procurement engagement processes.
+
+[2026-04-29] Defined that detailed mechanical CAD files (STEP, IGES, GA drawings) for SOEC systems are vendor-controlled deliverables and are not accessible prior to NDA and initial commercial qualification.
+
+[2026-04-29] Established procurement pathway requirement: budgetary proposals, preliminary ICDs, and integration-level documentation must be requested explicitly during RFI and gated through NDA execution.
+
+[2026-04-29] Defined pre-NDA vendor deliverables as limited to envelope dimensions, utility requirements, nominal performance data, and general safety information only.
+
+[2026-04-29] Defined post-NDA vendor deliverables as including full ICD packages, P&IDs at boundary conditions, electrical single-line diagrams, controls/SCADA interface specifications, and mechanical general arrangement drawings.
+
+## DELTA END
+
+---
+
+## VM_DELTA_VM_DELTA_LOGGING_DOCTRINE_20260430-0005.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_VM_DELTA_LOGGING_DOCTRINE_20260430-0005.md`  
+**VM_VERSION:** `20260430-0005`
+
+[2026-04-30] Established VM Delta Logging Doctrine requiring a dedicated append-only VM delta log to track every generated, committed, applied, failed, or remediated VM delta file.
+
+[2026-04-30] Locked requirement that VM delta logging include both machine-readable CSV and human-readable Markdown formats.
+
+[2026-04-30] Defined VM_DELTA_LOG.csv as the machine-readable delta ledger with required fields: timestamp, thread_name, chat_file, delta_file, vm_version, commit_hash, status, notes.
+
+[2026-04-30] Defined VM_DELTA_LOG.md as the human-readable delta audit log summarizing each delta entry, status, associated VM version, and commit hash.
+
+[2026-04-30] Established that VM delta logs are append-only governance artifacts and may be written only by Claude Code as execution authority.
+
+[2026-04-30] Established permitted delta status values: GENERATED, COMMITTED, APPLIED, FAILED, REMEDIATED.
+
+[2026-04-30] Required Claude Code to append VM_DELTA_LOG.csv and VM_DELTA_LOG.md during every VM delta workflow after saving the delta, committing it, applying it to CORE_VM.md, or recording a failure condition.
+
+[2026-04-30] Established that VM delta logs supplement but do not replace REBUILD_INDEX.md, CORE_VM.md metadata, chat archives, or individual VM_DELTA files.
+
+## DELTA END
+
+---
+
+## VM_DELTA_VM_GOVERNANCE_UPDATE_20260429-2359.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_VM_GOVERNANCE_UPDATE_20260429-2359.md`  
+**VM_VERSION:** `20260429-2359`
+
+[2026-04-29] Established Virtual Memory update protocol defining that ChatGPT (Agent A) operates exclusively as a Virtual Memory Extractor (VME) responsible for generating append-only VM_DELTA files and does not perform direct writes to CORE_VM.md or any GitHub repository.
+
+[2026-04-29] Defined execution boundary that all canonical Virtual Memory mutations, including delta application, snapshot archiving, and CORE_VM.md updates, are executed by Claude Code (Agent B) as the authoritative committer.
+
+[2026-04-29] Formalized workflow trigger: the command "Let’s update the virtual memory with the latest update from this chat" initiates VME extraction by ChatGPT and produces a VM_DELTA file for downstream execution.
+
+[2026-04-29] Locked separation-of-duties doctrine requiring that memory generation (ChatGPT) and memory mutation (Claude Code) remain isolated to preserve auditability, determinism, and protection of canonical state.
+
+[2026-04-29] Established that all VM updates must follow append-only delta architecture with no direct modification, overwrite, or rewrite of existing CORE_VM.md content.
+
+## DELTA END
+
+---
+
+## VM_DELTA_WATER_STRATEGY_REFINEMENT_20260413-2300.md
+
+**Source:** `02_VM_DELTAS/2026-04/VM_DELTA_WATER_STRATEGY_REFINEMENT_20260413-2300.md`  
+**VM_VERSION:** `20260413-2300`
+
+[2026-04-13] Established that stormwater capture and managed aquifer recharge (MAR) are to be treated as primary water supply mechanisms for Heber Campus, with groundwater extraction relegated to supplemental and buffering roles only.
+
+[2026-04-13] Defined stormwater system architecture as a core industrial utility requiring engineered catchment design, distributed retention, treatment trains, and seasonal storage integration, not a conventional drainage function.
+
+[2026-04-13] Confirmed that Heber Campus water strategy is dependent on seasonal storage via dual-path implementation: short-term surface equalization and long-term aquifer recharge/recovery cycles.
+
+[2026-04-13] Locked requirement that all stormwater collection systems must enforce three-tier water segregation: clean runoff, moderate-contact runoff, and industrial-contact water, with contamination of clean streams explicitly prohibited.
+
+[2026-04-13] Established that regulatory and legal defensibility of Heber Campus water usage is contingent on demonstrating measurable net-positive or balanced aquifer impact through metered recharge and withdrawal accounting.
+
+[2026-04-13] Defined water system performance requirement that stormwater capture shall offset a majority (50–100%) of campus net water demand on an annualized basis under engineered Net Capture Factor (NCF) scenarios.
+
+[2026-04-13] Confirmed that storage capacity, not gross water availability, is the primary limiting factor in achieving full stormwater utilization due to seasonal precipitation variability.
+
+[2026-04-13] Established that Holbrook Ranch shall not adopt the Heber stormwater-dependent water model and is instead designated as a low-water-intensity industrial campus optimized for pipeline-adjacent energy, fuels, and logistics operations.
+
+[2026-04-13] Defined dual-campus water strategy doctrine: Heber Campus operates as a water-balanced or water-positive closed-loop system, while Holbrook Ranch operates as a water-minimized, infrastructure-driven system with reduced reliance on hydrological inputs.
+
+## DELTA END
