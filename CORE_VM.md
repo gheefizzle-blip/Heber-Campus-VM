@@ -1,8 +1,8 @@
 # CORE_VM.md
 
-**Last Updated:** 2026-05-01 09:00
-**VM_VERSION:** 20260501-0900
-**Status:** AEGIS_CONTINUUM_NAMING applied (ASG-VM-PRODUCTIZATION-002 Rev C amendment). 72 deltas applied total.
+**Last Updated:** 2026-05-01 15:11
+**VM_VERSION:** 20260501-1511
+**Status:** AEGIS_CONTINUUM_WORKSPACE applied (ASG-ATHENA-CONTINUUM-INIT-001 NAS workspace initialization). 73 deltas applied total.
 
 ## Core Virtual Memory
 
@@ -3304,4 +3304,22 @@ of remote `origin/master` (HEAD `993a954`) which had Feb 9-10 doctrine inline.
 [2026-05-01] Defined Aegis Continuum as the branded product and Dual-Agent VM Governance Framework as the underlying technical architecture.
 
 [2026-05-01] Established planned repository and scaffold naming conventions: aegis-continuum-internal, aegis-continuum-public, and aegis-continuum-template.
+
+
+---
+
+## VM_DELTA_AEGIS_CONTINUUM_WORKSPACE_20260501-1511.md
+
+**Source:** `02_VM_DELTAS/2026-05/VM_DELTA_AEGIS_CONTINUUM_WORKSPACE_20260501-1511.md`  
+**VM_VERSION:** `20260501-1511`
+
+[2026-05-01] Established the Aegis Continuum product workspace on the NAS at Z:\SE_T1\ATHENA_INTELLIGENCE\AEGIS_SOFTWARE\Aegis_Continuum\.
+
+[2026-05-01] Established ATHENA_INTELLIGENCE as the NAS parent directory for Athena Intelligence product-family workspaces.
+
+[2026-05-01] Established AEGIS_SOFTWARE as the NAS product-family directory under ATHENA_INTELLIGENCE for Aegis Software products.
+
+[2026-05-01] Established that existing Z:\SE_T1\AEGIS\ and Z:\SE_T1\THEMIS\ root folders remain untouched legacy/current operational folders pending any future explicit migration work order.
+
+[2026-05-01] Established the initial Aegis Continuum workspace scaffold consisting of product governance, framework architecture, Agent A strategic memory, Agent B execution memory, work orders, templates, validation tooling, sync automation, security and classification, domain packs, commercialization, and reports directories.
 
